@@ -24,4 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('search_page.urls')),
     path('registration/', include('registration.urls')),
+    path('metrics/', include('metrics.urls')),
+    path('advanced_search/', include('advanced_search.urls')),
+    path('utilities/', include('utilities.urls')),
 ]

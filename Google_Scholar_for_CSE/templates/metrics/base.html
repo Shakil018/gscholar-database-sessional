@@ -15,19 +15,12 @@
 
   </head>
   <body>
+    <div class="container">
 
-    <div class="sidebar">
-      <a class="active" href="{% url 'registration:register_step1' %}">My Profile</a>
-      <a href="{% url 'utilities:index' %}">My Library</a>
-      <a href="#contact">Alerts</a>
-      <a href="{% url 'metrics:index' %}">Metrics</a>
-      <a href="{% url 'advanced_search:index' %}">Advanced Search</a>
-      <a href="#">Settings</a>
+      {% block body_block %}
 
+      {% endblock %}
     </div>
-    {% block body_block %}
-
-    {% endblock %}
 
   </body>
 
