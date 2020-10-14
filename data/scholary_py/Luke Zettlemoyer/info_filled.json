@@ -1,0 +1,1824 @@
+{
+    "affiliation": "University of Washington; Facebook",
+    "citedby": 17386,
+    "citedby5y": 14655,
+    "cites_per_year": {
+        "2004": 51,
+        "2005": 47,
+        "2006": 47,
+        "2007": 54,
+        "2008": 111,
+        "2009": 157,
+        "2010": 184,
+        "2011": 250,
+        "2012": 343,
+        "2013": 518,
+        "2014": 702,
+        "2015": 827,
+        "2016": 926,
+        "2017": 1174,
+        "2018": 2147,
+        "2019": 5451,
+        "2020": 4071
+    },
+    "coauthors": [
+        {
+            "affiliation": "Google",
+            "filled": false,
+            "id": "qXwJkr8AAAAJ",
+            "name": "Kenton Lee"
+        },
+        {
+            "affiliation": "Facebook AI Research",
+            "filled": false,
+            "id": "SnQnQicAAAAJ",
+            "name": "Mike Lewis"
+        },
+        {
+            "affiliation": "Tel Aviv University",
+            "filled": false,
+            "id": "PZVd2h8AAAAJ",
+            "name": "Omer Levy"
+        },
+        {
+            "affiliation": "Assistant Professor, Computer Science and Cornell Tech, Cornell University; ASAPP",
+            "filled": false,
+            "id": "XuQW7ogAAAAJ",
+            "name": "Yoav Artzi"
+        },
+        {
+            "affiliation": "Allen Institute for Artificial Intelligence",
+            "filled": false,
+            "id": "SfKdzrUAAAAJ",
+            "name": "Matt Gardner"
+        },
+        {
+            "affiliation": "Facebook AI Research",
+            "filled": false,
+            "id": "5LtyqOQAAAAJ",
+            "name": "Myle Ott"
+        },
+        {
+            "affiliation": "Google",
+            "filled": false,
+            "id": "XVVvabUAAAAJ",
+            "name": "Luheng He"
+        },
+        {
+            "affiliation": "Birch Technology",
+            "filled": false,
+            "id": "H9buyroAAAAJ",
+            "name": "Yinhan Liu"
+        },
+        {
+            "affiliation": "Sr Research Scientist, Allen Institute for Artificial Intelligence",
+            "filled": false,
+            "id": "K5nCPZwAAAAJ",
+            "name": "Matthew E Peters"
+        },
+        {
+            "affiliation": "Allen Institute for Artificial Intelligence",
+            "filled": false,
+            "id": "RV0qKp4AAAAJ",
+            "name": "Mark Neumann"
+        },
+        {
+            "affiliation": "University of Washington",
+            "filled": false,
+            "id": "IUZgJogAAAAJ",
+            "name": "Daniel Weld"
+        },
+        {
+            "affiliation": "University of Washington",
+            "filled": false,
+            "id": "dCEcahMAAAAJ",
+            "name": "Eunsol Choi"
+        },
+        {
+            "affiliation": "Assistant Professor, University of Massachusetts Amherst",
+            "filled": false,
+            "id": "rBVA5tcAAAAJ",
+            "name": "Mohit Iyyer"
+        },
+        {
+            "affiliation": "Research Scientist, Google",
+            "filled": false,
+            "id": "MpZ6dTEAAAAJ",
+            "name": "Tom Kwiatkowski"
+        },
+        {
+            "affiliation": "Facebook AI Research",
+            "filled": false,
+            "id": "CRbM_P4AAAAJ",
+            "name": "Naman Goyal"
+        },
+        {
+            "affiliation": "",
+            "filled": false,
+            "id": "IcasIiwAAAAJ",
+            "name": "Leslie Kaelbling"
+        },
+        {
+            "affiliation": "University of Washington / Allen Institute for Artificial Intelligence",
+            "filled": false,
+            "id": "vhP-tlcAAAAJ",
+            "name": "Yejin Choi"
+        },
+        {
+            "affiliation": "Professor of Computer Science and Engineering, University of Washington, and Nvidia Research",
+            "filled": false,
+            "id": "DqXsbPAAAAAJ",
+            "name": "Dieter Fox"
+        },
+        {
+            "affiliation": "University of Washington, Seattle",
+            "filled": false,
+            "id": "uCJk8mIAAAAJ",
+            "name": "Mandar Joshi"
+        },
+        {
+            "affiliation": "Princeton University",
+            "filled": false,
+            "id": "sVR8ktkAAAAJ",
+            "name": "Danqi Chen"
+        }
+    ],
+    "email": "@cs.washington.edu",
+    "filled": false,
+    "hindex": 58,
+    "hindex5y": 51,
+    "i10index": 117,
+    "i10index5y": 105,
+    "id": "UjpbO6IAAAAJ",
+    "interests": [
+        "Natural Langauge Processing",
+        "Semantics",
+        "Machine Learning",
+        "Artificial Intelligence"
+    ],
+    "name": "Luke Zettlemoyer",
+    "publications": [
+        {
+            "bib": {
+                "cites": "4093",
+                "title": "Deep contextualized word representations",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:WA5NYHcadZ8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "939",
+                "title": "Roberta: A robustly optimized bert pretraining approach",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:kz9GbA2Ns4gC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "779",
+                "title": "Learning to map sentences to logical form: Structured classification with probabilistic categorial grammars",
+                "year": "2005"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:u5HHmVD_uO8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "746",
+                "title": "Knowledge-based weak supervision for information extraction of overlapping relations",
+                "year": "2011"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:_kc_bZDykSQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "402",
+                "title": "Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:D_sINldO8mEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "399",
+                "title": "Online learning of relaxed CCG grammars for parsing to logical form",
+                "year": "2007"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:u-x6o8ySG0sC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "379",
+                "title": "Allennlp: A deep semantic natural language processing platform",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:HE397vMXCloC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "346",
+                "title": "Weakly supervised learning of semantic parsers for mapping instructions to actions",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:bEWYMUwI8FkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "342",
+                "title": "Learning to parse natural language commands to a robot control system",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:TQgYirikUcIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "331",
+                "title": "Open question answering over curated and extracted knowledge bases",
+                "year": "2014"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:RGFaLdJalmkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "308",
+                "title": "End-to-end neural coreference resolution",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:kRWSkSYxWN8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "304",
+                "title": "Scaling semantic parsers with on-the-fly ontology matching",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:J_g5lzvAfSwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "300",
+                "title": "Inducing probabilistic CCG grammars from logical form with higher-order unification",
+                "year": "2010"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:Se3iqnhoufwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "298",
+                "title": "Paraphrase-driven learning for open question answering",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:isC4tDSrTZIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "272",
+                "title": "A joint model of language and perception for grounded attribute learning",
+                "year": "2012"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:_Qo2XoVZTnwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "265",
+                "title": "Deep semantic role labeling: What works and what\u2019s next",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:eflP2zaiRacC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "238",
+                "title": "Reinforcement learning for mapping instructions to actions",
+                "year": "2009"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:WF5omc3nYNoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "218",
+                "title": "Learning symbolic models of stochastic domains",
+                "year": "2007"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:9yKSN-GCB0IC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "217",
+                "title": "Lifted Probabilistic Inference with Counting Formulas.",
+                "year": "2008"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:2osOgNQ5qMEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "212",
+                "title": "Lexical generalization in CCG grammar induction for semantic parsing",
+                "year": "2011"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:ULOm3_A8WrAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "197",
+                "title": "Learning to automatically solve algebra word problems",
+                "year": "2014"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:RYcK_YlVTxYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "187",
+                "title": "Learning context-dependent mappings from sentences to logical form",
+                "year": "2009"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:zYLM7Y9cAGgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "186",
+                "title": "Summarizing source code using a neural attention model",
+                "year": "2016"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:uWQEDVKXjbEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "166",
+                "title": "Quac: Question answering in context",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:ZuybSZzF8UAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "162",
+                "title": "Towards narrative-centered learning environments",
+                "year": "1999"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:d1gkVwhDpl0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "156",
+                "title": "Adversarial example generation with syntactically controlled paraphrase networks",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:tkaPQYYpVKoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "149",
+                "title": "Neural amr: Sequence-to-sequence models for parsing and generation",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:VOx2b1Wkg3QC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "139",
+                "title": "A generative model for parsing natural language to meaning representations",
+                "year": "2008"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:LkGwnXOMwfcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "136",
+                "title": "Learning a neural semantic parser from user feedback",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:eJXPG6dFmWUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "136",
+                "title": "Globally coherent text generation with neural checklist models",
+                "year": "2016"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:5ugPr518TE4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "134",
+                "title": "Broad-coverage CCG semantic parsing with AMR",
+                "year": "2015"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:pyW8ca7W8N0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "131",
+                "title": "Bootstrapping semantic parsers from conversations",
+                "year": "2011"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:YOwf2qJgpHMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "122",
+                "title": "Spanbert: Improving pre-training by representing and predicting spans",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:XD-gHx7UXLsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "118",
+                "title": "Situation recognition: Visual semantic role labeling for image understanding",
+                "year": "2016"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:nb7KW1ujOQ8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "111",
+                "title": "Reading between the lines: Learning to map high-level instructions to commands",
+                "year": "2010"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:MXK_kJrjxJIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "109",
+                "title": "Learning from unscripted deictic gesture and language for human-robot interactions",
+                "year": "2014"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:vV6vV6tmYwMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "108",
+                "title": "Higher-order coreference resolution with coarse-to-fine inference",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:Y5dfb0dijaUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "107",
+                "title": "Dissecting contextual word embeddings: Architecture and representation",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:1yQoGdGgb4wC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "107",
+                "title": "Zero-shot relation extraction via reading comprehension",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:q3oQSFYPqjQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "95",
+                "title": "Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:vDijr-p_gm4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "93",
+                "title": "An Imprecise Mouse Gesture for the Fast Activation of Controls.",
+                "year": "1999"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:UeHWp8X0CEIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "91",
+                "title": "Question-answer driven semantic role labeling: Using natural language to annotate natural language",
+                "year": "2015"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:yD5IFk8b50cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "89",
+                "title": "Learning planning rules in noisy stochastic worlds",
+                "year": "2005"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:qjMakFHDy7sC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "87",
+                "title": "A probabilistic model of syntactic and semantic acquisition from child-directed utterances and their meanings",
+                "year": "2012"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:hFOr9nPyWt4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "86",
+                "title": "Unsupervised cross-lingual representation learning at scale",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:Z5m8FVwuT1cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "85",
+                "title": "Learning Probabilistic Relational Planning Rules.",
+                "year": "2004"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:Tyk-4Ss8FVUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "84",
+                "title": "Jointly predicting predicates and arguments in neural semantic role labeling",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:9vf0nzSNQJEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "80",
+                "title": "Lstm ccg parsing",
+                "year": "2016"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:1sJd4Hv_s6UC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "80",
+                "title": "Joint coreference resolution and named-entity linking with multi-pass sieves",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:GnPB-g6toBAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "79",
+                "title": "Modeling missing data in distant supervision for information extraction",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:M05iB0D1s5AC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "75",
+                "title": "Explanatory lifelike avatars: performing user-centered tasks in 3D learning environments",
+                "year": "1999"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:IjCSPb-OGe4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "72",
+                "title": "Learning STRIPS operators from noisy and incomplete observations",
+                "year": "2012"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:e5wmG9Sq2KIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "66",
+                "title": "Context-dependent semantic parsing for time expressions",
+                "year": "2014"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:lSLTfruPkqcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "65",
+                "title": "Learning distributions over logical forms for referring expression generation",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:2P1L_qKh6hAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "62",
+                "title": "Programming by example: visual generalization in programming by example",
+                "year": "2000"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:Y0pCki6q_DkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "61",
+                "title": "Mise en place: Unsupervised interpretation of instructional recipes",
+                "year": "2015"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:a0OBvERweLwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "59",
+                "title": "A visual medium for programmatic control of interactive applications",
+                "year": "1999"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:W7OEmFMy1HYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "59",
+                "title": "Habitable 3D learning environments for situated learning",
+                "year": "1998"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:YsMSGLbcyi4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "54",
+                "title": "Supervised open information extraction",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:5awf1xo2G04C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "53",
+                "title": "Cloze-driven pretraining of self-attention networks",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:7T2F9Uy0os0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "51",
+                "title": "Robot programming by demonstration with situated spatial language understanding",
+                "year": "2015"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:4OULZ7Gr8RgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "51",
+                "title": "Revminer: An extractive interface for navigating reviews on a smartphone",
+                "year": "2012"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:R3hNpaxXUhUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "49",
+                "title": "Mask-predict: Parallel decoding of conditional masked language models",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:uWiczbcajpAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "48",
+                "title": "Ultra-fine entity typing",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:LjlpjdlvIbIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "48",
+                "title": "See no evil, say no evil: Description generation from densely labeled images",
+                "year": "2014"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:g5m5HwL7SMYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "47",
+                "title": "Deep rnns encode soft hierarchical syntax",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:SdhP9T11ey4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "46",
+                "title": "Joint a* ccg parsing and semantic role labelling",
+                "year": "2015"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:cFHS6HbyZ2cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "45",
+                "title": "Task-sensitive cinematography interfaces for interactive 3D learning environments",
+                "year": "1998"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:eQOLeE2rZwMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "44",
+                "title": "IBOTS: Agent control through the user interface",
+                "year": "1998"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:ufrVoPGSRksC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "43",
+                "title": "Syntactic scaffolds for semantic structures",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:dQ2og3OwTAUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "43",
+                "title": "Event detection and factuality assessment with non-expert supervision",
+                "year": "2015"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:D03iK_w7-QYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "39",
+                "title": "Scalable semantic parsing with partial ontologies",
+                "year": "2015"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:_xSYboBqXhAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "36",
+                "title": "Compositional questions do not necessitate multi-hop reasoning",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:fEOibwPWpKIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "36",
+                "title": "Transformers with convolutional context for ASR",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:2KloaMYe4IUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "36",
+                "title": "Personalized mathematical word problem generation",
+                "year": "2015"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:zA6iFVUQeVQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "36",
+                "title": "Animated pedagogical agents in knowledge-based learning environments",
+                "year": "2001"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:_FxGoFyzp5QC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "35",
+                "title": "Program synthesis from natural language using recurrent neural networks",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:VL0QpB8kHFEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "35",
+                "title": "3D Wikipedia: Using online text to automatically label and navigate reconstructed geometry",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:ns9cj8rnVeAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "35",
+                "title": "Automatic idiom identification in Wiktionary",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:BqipwSGYUEgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "32",
+                "title": "Mapping language to code in programmatic context",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:PR6Y55bgFSsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "31",
+                "title": "Large-scale qa-srl parsing",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:JoZmwDi-zQgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "31",
+                "title": "Recurrent additive networks",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:BrmTIyaxlBUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "31",
+                "title": "Global neural CCG parsing with optimality guarantees",
+                "year": "2016"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:UxriW0iASnsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "30",
+                "title": "Selective phrase pair extraction for improved statistical machine translation",
+                "year": "2007"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:8k81kl-MbHgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "29",
+                "title": "Nl2bash: A corpus and semantic parser for natural language interface to the linux operating system",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:Mojj43d5GZwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "27",
+                "title": "Multi-hop reading comprehension through question decomposition and rescoring",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:j8SEvjWlNXcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "27",
+                "title": "Evaluating gender bias in machine translation",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:35r97b3x0nAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "27",
+                "title": "Neural metaphor detection in context",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:hkOj_22Ku90C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "27",
+                "title": "Simplequestions nearly solved: A new upperbound and baseline approach",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:_B80troHkn4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "27",
+                "title": "Multi-agent filtering with infinitely nested beliefs",
+                "year": "2009"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:UebtZRa9Y70C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "27",
+                "title": "Logical particle filtering",
+                "year": "2008"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:hqOjcs7Dif8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "26",
+                "title": "BERT for coreference resolution: Baselines and analysis",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:nrtMV_XWKgEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "25",
+                "title": "Vision-and-dialog navigation",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:t7zJ5fGR-2UC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "25",
+                "title": "pair2vec: Compositional word-pair embeddings for cross-sentence inference",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:UHK10RUVsp4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "25",
+                "title": "Crowdsourcing question-answer meaning representations",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:bnK-pcrLprsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "25",
+                "title": "Morpho-syntactic lexical generalization for CCG semantic parsing",
+                "year": "2014"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:SeFeTyx0c_EC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "25",
+                "title": "UW SPF: The University of Washington semantic parsing framework",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:O3NaXMp0MMsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "24",
+                "title": "Don't Take the Easy Way Out: Ensemble Based Methods for Avoiding Known Dataset Biases",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:yB1At4FlUx8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "23",
+                "title": "A discrete hard em approach for weakly supervised question answering",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:0KyAp5RtaNEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "23",
+                "title": "Sparse networks from scratch: Faster training without losing performance",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:z_wVstp3MssC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "22",
+                "title": "Long short-term memory as a dynamically computed element-wise weighted sum",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:dTyEYWd-f8wC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "22",
+                "title": "The user interface as an agent environment",
+                "year": "2000"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:roLk4NBRz8UC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "21",
+                "title": "Using syntactic and confusion network structure for out-of-vocabulary word detection",
+                "year": "2012"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:r0BpntZqJG4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "20",
+                "title": "Commonly uncommon: Semantic sparsity in situation recognition",
+                "year": "2017"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:tS2w5q8j5-wC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "20",
+                "title": "Human-in-the-loop parsing",
+                "year": "2016"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:XiSMed-E-HIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "18",
+                "title": "Emerging Cross-lingual Structure in Pretrained Language Models",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:-FonjvnnhkoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "18",
+                "title": "\u201cCan you give me another word for hyperbaric?\u201d: Improving speech translation using targeted clarification questions",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:hMod-77fHWUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "17",
+                "title": "Multilingual denoising pre-training for neural machine translation",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:ILKRHgRFtOwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "17",
+                "title": "Document-level sentiment inference with social, faction, and discourse context",
+                "year": "2016"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:J-pR_7NvFogC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "17",
+                "title": "Learning probabilistic relational dynamics for multiple tasks",
+                "year": "2012"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:5nxA0vEk-isC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "16",
+                "title": "A theme-rewriting approach for generating algebra word problems",
+                "year": "2016"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:u9iWguZQMMsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "16",
+                "title": "Semantic Parsing with Combinatory Categorial Grammars.",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:NMxIlDl6LWMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "13",
+                "title": "Detecting and correcting misconceptions with lifelike avatars in 3D learning environments",
+                "year": "1999"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:0EnyYjriUFMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "12",
+                "title": "Knowledge guided text retrieval and reading for open domain question answering",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:p__nRnzSRKYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "12",
+                "title": "Generalization through memorization: Nearest neighbor language models",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:AvfA0Oy_GE0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "11",
+                "title": "Extreme extraction: Only one hour per relation",
+                "year": "2015"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:fPk4N6BV_jEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "10",
+                "title": "Lightly supervised learning of procedural dialog systems",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:blknAaTinKkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "9",
+                "title": "Zero-shot entity linking with dense entity retrieval",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:BwyfMAYsbu0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "8",
+                "title": "Recognizing and imitating programmer style: Adversaries in program authorship attribution",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:XiVPGOgt02cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "8",
+                "title": "Multi-label learning with posterior regularization",
+                "year": "2014"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:ZHo1McVdvXMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "7",
+                "title": "Semiconductor storage unit",
+                "year": "2003"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:tKAzc9rXhukC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "6",
+                "title": "Iterative search for weakly supervised semantic parsing",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:evX43VCCuoAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "6",
+                "title": "Improving semantic parsing for task oriented dialog",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:uLbwQdceFCQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "6",
+                "title": "Animated pedagogical agents in knowledge-based learning environments, Smart machines in education: the coming revolution in educational technology",
+                "year": "2001"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:f2IySw72cVMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "5",
+                "title": "Semi-Autoregressive Training Improves Mask-Predict Decoding",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:hMsQuOkrut0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "5",
+                "title": "E3: Entailment-driven extracting and editing for conversational machine reading",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:uJ-U7cs_P_0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "5",
+                "title": "Learning programmatic idioms for scalable semantic parsing",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:_Re3VWB3Y0AC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "5",
+                "title": "Reasoning about large populations with lifted probabilistic inference",
+                "year": "2007"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:Zph67rFs4hoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "4",
+                "title": "Aligned cross entropy for non-autoregressive machine translation",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:g3aElNc5_aQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "4",
+                "title": "Alfred: A benchmark for interpreting grounded instructions for everyday tasks",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:EYYDruWGBe4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "4",
+                "title": "The referential reader: A recurrent entity network for anaphora resolution",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:_Ybze24A_UAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "4",
+                "title": "Combining world and interaction models for human-robot collaborations",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:k_IJM867U9cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "3",
+                "title": "AmbigQA: Answering Ambiguous Open-domain Questions",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:KUbvn5osdkgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "3",
+                "title": "Introduction to the special issue on learning semantics",
+                "year": "2014"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:JV2RwH3_ST0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "3",
+                "title": "Discriminative learning for joint template filling",
+                "year": "2012"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:HDshCWvjkbEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "2",
+                "title": "Juice: A large scale distantly supervised dataset for open domain context-based code generation",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:uc_IGeMz5qoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "2",
+                "title": "Grounding antonym adjective pairs through interaction",
+                "year": "2014"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:NaGl4SEjCO4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "2",
+                "title": "Learning to relate literal and sentimental descriptions of visual properties",
+                "year": "2013"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:M3NEmzRMIkIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "2",
+                "title": "Probabilistic, Logical and Relational Learning-A Further Synthesis",
+                "year": "2007"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:W5xh706n7nkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "1",
+                "title": "Enforcing encoder-decoder modularity in sequence-to-sequence models",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:ML0RJ9NH7IQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "1",
+                "title": "Span-based Hierarchical Semantic Parsing for Task-Oriented Dialog",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:URolC5Kub84C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "1",
+                "title": "System and methods for performing nlp related tasks using contextualized word representations",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:VLnqNzywnoUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "1",
+                "title": "Better Character Language Modeling Through Morphology",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:-_dYPAW6P2MC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "1",
+                "title": "Learning to parse natural language to a robot execution system",
+                "year": "2012"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:mB3voiENLucC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "1",
+                "title": "Learning to recover meaning from unannotated conversational interactions",
+                "year": "2011"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:hC7cP41nSMkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "1",
+                "title": "User Interface Softbots.",
+                "year": "2000"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:M3ejUd6NZC8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Controlled Crowdsourcing for High-Quality QA-SRL Annotation",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:WZBGuue-350C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Simple and Effective Retrieve-Edit-Rerank Text Generation",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:kuK5TVdYjLIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Pre-training via Paraphrasing",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:e_rmSamDkqQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss-Informed Biencoders",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:gsN89kCJA0AC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "An Information Bottleneck Approach for Controlling Conciseness in Rationale Extraction",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:TIZ-Mc8IlK0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Active Learning for Coreference Resolution using Discrete Annotation",
+                "year": "2020"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:tYavs44e6CUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Inducing and applying a subject-targeted context free grammar",
+                "year": "2019"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:3s1wT3WcHBgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Composing Information, Extraction, Semantic Parsing and Tractable Inference for Deep NLP",
+                "year": "2018"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:L7CI7m0gUJcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Proceedings of the Workshop on Uphill Battles in Language Processing: Scaling Early Achievements to Robust Methods",
+                "year": "2016"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:wbdj-CoPYUoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Learning Symbolic Models of Stochastic Domains",
+                "year": "2011"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:rO6llkc54NcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "CSE 473: Artificial Intelligence",
+                "year": "2010"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:P5F9QuxV20EC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Visual Generalization in Programming by Example",
+                "year": "2001"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:kzcrU_BdoSEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "CS5740: Natural Language Processing"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:epqYDVWIO7EC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Question-Answer Driven Semantic Role Labeling"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:Fu2w8maKXqMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "End-to-end Neural Coreference Resolution"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:WqliGbK-hY8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "A Challenging Problem"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:5Ul4iDaHHb8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Feature-Based Models for Statistical Machine Translation"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:pqnbT2bcN3wC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Toward Unconstrained Gesture and Language Interfaces"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:maZDTaKrznsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Nineteen"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:dhFuZR0502QC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "T10: Multi-agent Filtering with Infinitely Nested Beliefs"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:4DMP91E08xMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Learning and Planning with Probabilistic Relational Rules"
+            },
+            "filled": false,
+            "id_citations": "UjpbO6IAAAAJ:qxL8FJ1GzNcC",
+            "source": "citations"
+        }
+    ],
+    "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=UjpbO6IAAAAJ"
+}
