@@ -1,0 +1,121 @@
+
+.nav_container{
+  margin: 1rem;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a: hover {
+  background-color: #111111;
+}
+
+span{
+  margin:auto;
+  padding-bottom: 1rem;
+}
+
+
+li .float_right{
+  float: right;
+  margin-right: 0px;
+  padding-right: 1rem;
+  display: block;
+}
+
+.gscholar_logo{
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.search_box{
+  width: 75%;
+  margin:auto;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  margin-top: 2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkmarkbox{
+  display:inline;
+  width: 50%;
+  position: relative;
+  margin-top: 2rem;
+  left: 40%;
+  transform: translate(-50%, -50%);
+
+}
+
+.checkmarkbox li{
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+item{
+  float:left;
+}
