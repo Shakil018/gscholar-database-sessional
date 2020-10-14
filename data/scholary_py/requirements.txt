@@ -1,0 +1,5 @@
+pip install opencv-python==3.2.0.8
+pip install scholarly==0.5
+pip install numpy==1.19
+# older version used
+# pip install scholarly==0.3.3

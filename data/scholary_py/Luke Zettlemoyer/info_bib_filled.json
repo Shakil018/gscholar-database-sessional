@@ -1,0 +1,3579 @@
+{
+    "affiliation": "University of Washington; Facebook",
+    "citedby": 17517,
+    "citedby5y": 14786,
+    "cites_per_year": {
+        "2004": 51,
+        "2005": 47,
+        "2006": 47,
+        "2007": 54,
+        "2008": 111,
+        "2009": 157,
+        "2010": 184,
+        "2011": 250,
+        "2012": 343,
+        "2013": 518,
+        "2014": 702,
+        "2015": 827,
+        "2016": 926,
+        "2017": 1175,
+        "2018": 2147,
+        "2019": 5447,
+        "2020": 4205
+    },
+    "coauthors": [
+        {
+            "affiliation": "Google",
+            "filled": false,
+            "id": "qXwJkr8AAAAJ",
+            "name": "Kenton Lee"
+        },
+        {
+            "affiliation": "Facebook AI Research",
+            "filled": false,
+            "id": "SnQnQicAAAAJ",
+            "name": "Mike Lewis"
+        },
+        {
+            "affiliation": "Tel Aviv University",
+            "filled": false,
+            "id": "PZVd2h8AAAAJ",
+            "name": "Omer Levy"
+        },
+        {
+            "affiliation": "Assistant Professor, Computer Science and Cornell Tech, Cornell University; ASAPP",
+            "filled": false,
+            "id": "XuQW7ogAAAAJ",
+            "name": "Yoav Artzi"
+        },
+        {
+            "affiliation": "Allen Institute for Artificial Intelligence",
+            "filled": false,
+            "id": "SfKdzrUAAAAJ",
+            "name": "Matt Gardner"
+        },
+        {
+            "affiliation": "Facebook AI Research",
+            "filled": false,
+            "id": "5LtyqOQAAAAJ",
+            "name": "Myle Ott"
+        },
+        {
+            "affiliation": "Google",
+            "filled": false,
+            "id": "XVVvabUAAAAJ",
+            "name": "Luheng He"
+        },
+        {
+            "affiliation": "Birch Technology",
+            "filled": false,
+            "id": "H9buyroAAAAJ",
+            "name": "Yinhan Liu"
+        },
+        {
+            "affiliation": "Sr Research Scientist, Allen Institute for Artificial Intelligence",
+            "filled": false,
+            "id": "K5nCPZwAAAAJ",
+            "name": "Matthew E Peters"
+        },
+        {
+            "affiliation": "Allen Institute for Artificial Intelligence",
+            "filled": false,
+            "id": "RV0qKp4AAAAJ",
+            "name": "Mark Neumann"
+        },
+        {
+            "affiliation": "University of Washington",
+            "filled": false,
+            "id": "IUZgJogAAAAJ",
+            "name": "Daniel Weld"
+        },
+        {
+            "affiliation": "University of Washington",
+            "filled": false,
+            "id": "dCEcahMAAAAJ",
+            "name": "Eunsol Choi"
+        },
+        {
+            "affiliation": "Assistant Professor, University of Massachusetts Amherst",
+            "filled": false,
+            "id": "rBVA5tcAAAAJ",
+            "name": "Mohit Iyyer"
+        },
+        {
+            "affiliation": "Research Scientist, Google",
+            "filled": false,
+            "id": "MpZ6dTEAAAAJ",
+            "name": "Tom Kwiatkowski"
+        },
+        {
+            "affiliation": "Facebook AI Research",
+            "filled": false,
+            "id": "CRbM_P4AAAAJ",
+            "name": "Naman Goyal"
+        },
+        {
+            "affiliation": "",
+            "filled": false,
+            "id": "IcasIiwAAAAJ",
+            "name": "Leslie Kaelbling"
+        },
+        {
+            "affiliation": "University of Washington / Allen Institute for Artificial Intelligence",
+            "filled": false,
+            "id": "vhP-tlcAAAAJ",
+            "name": "Yejin Choi"
+        },
+        {
+            "affiliation": "Professor of Computer Science and Engineering, University of Washington, and Nvidia Research",
+            "filled": false,
+            "id": "DqXsbPAAAAAJ",
+            "name": "Dieter Fox"
+        },
+        {
+            "affiliation": "University of Washington, Seattle",
+            "filled": false,
+            "id": "uCJk8mIAAAAJ",
+            "name": "Mandar Joshi"
+        },
+        {
+            "affiliation": "Princeton University",
+            "filled": false,
+            "id": "sVR8ktkAAAAJ",
+            "name": "Danqi Chen"
+        }
+    ],
+    "email": "@cs.washington.edu",
+    "filled": false,
+    "hindex": 58,
+    "hindex5y": 52,
+    "i10index": 117,
+    "i10index5y": 105,
+    "id": "UjpbO6IAAAAJ",
+    "interests": [
+        "Natural Langauge Processing",
+        "Semantics",
+        "Machine Learning",
+        "Artificial Intelligence"
+    ],
+    "name": "Luke Zettlemoyer",
+    "publications": [
+        {
+            "bib": {
+                "abstract": "We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (eg, syntax and semantics), and (2) how these uses vary across linguistic contexts (ie, to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging NLP problems, including question answering, textual entailment and sentiment analysis. We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.",
+                "author": "Matthew E Peters and Mark Neumann and Mohit Iyyer and Matt Gardner and Christopher Clark and Kenton Lee and Luke Zettlemoyer",
+                "cites": "14181983828043963745",
+                "eprint": "https://arxiv.org/pdf/1802.05365.pdf%E3%80%91",
+                "journal": "arXiv preprint arXiv:1802.05365",
+                "title": "Deep contextualized word representations",
+                "url": "https://arxiv.org/abs/1802.05365",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2017": 11,
+                "2018": 353,
+                "2019": 2285,
+                "2020": 1447
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:WA5NYHcadZ8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.",
+                "author": "Yinhan Liu and Myle Ott and Naman Goyal and Jingfei Du and Mandar Joshi and Danqi Chen and Omer Levy and Mike Lewis and Luke Zettlemoyer and Veselin Stoyanov",
+                "cites": "803096065579965194",
+                "eprint": "https://arxiv.org/pdf/1907.11692",
+                "journal": "arXiv preprint arXiv:1907.11692",
+                "title": "Roberta: A robustly optimized bert pretraining approach",
+                "url": "https://arxiv.org/abs/1907.11692",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 221,
+                "2020": 740
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:kz9GbA2Ns4gC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luke S Zettlemoyer and Michael Collins",
+                "cites": "12511188869985993063",
+                "title": "Learning to map sentences to logical form: Structured classification with probabilistic categorial grammars",
+                "year": "2005"
+            },
+            "cites_per_year": {
+                "2008": 22,
+                "2009": 28,
+                "2010": 25,
+                "2011": 36,
+                "2012": 40,
+                "2013": 55,
+                "2014": 71,
+                "2015": 73,
+                "2016": 65,
+                "2017": 79,
+                "2018": 100,
+                "2019": 106,
+                "2020": 33
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:u5HHmVD_uO8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Information extraction (IE) holds the promise of generating a large-scale knowledge base from the Web\u2019s natural language text. Knowledge-based weak supervision, using structured data to heuristically label a training corpus, works towards this goal by enabling the automated learning of a potentially unbounded number of relation extractors. Recently, researchers have developed multiinstance learning algorithms to combat the noisy training data that can come from heuristic labeling, but their models assume relations are disjoint\u2014for example they cannot extract the pair Founded (Jobs, Apple) and CEO-of (Jobs, Apple).",
+                "author": "Raphael Hoffmann and Congle Zhang and Xiao Ling and Luke Zettlemoyer and Daniel S Weld",
+                "cites": "4054626106773192991",
+                "eprint": "https://www.aclweb.org/anthology/P11-1055.pdf",
+                "pages": "541-550",
+                "title": "Knowledge-based weak supervision for information extraction of overlapping relations",
+                "url": "https://www.aclweb.org/anthology/P11-1055.pdf",
+                "year": "2011"
+            },
+            "cites_per_year": {
+                "2011": 4,
+                "2012": 23,
+                "2013": 37,
+                "2014": 65,
+                "2015": 72,
+                "2016": 81,
+                "2017": 101,
+                "2018": 115,
+                "2019": 165,
+                "2020": 82
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:_kc_bZDykSQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present TriviaQA, a challenging reading comprehension dataset containing over 650K question-answer-evidence triples. TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions. We show that, in comparison to other recently introduced large-scale datasets, TriviaQA (1) has relatively complex, compositional questions,(2) has considerable syntactic and lexical variability between questions and corresponding answer-evidence sentences, and (3) requires more cross sentence reasoning to find answers. We also present two baseline algorithms: a feature-based classifier and a state-of-the-art neural network, that performs well on SQuAD reading comprehension. Neither approach comes close to human performance (23% and 40% vs. 80%), suggesting that TriviaQA is a challenging testbed that is worth significant future study. Data and code available at--this http URL",
+                "author": "Mandar Joshi and Eunsol Choi and Daniel S Weld and Luke Zettlemoyer",
+                "cites": "5079829668576957986",
+                "eprint": "https://arxiv.org/pdf/1705.03551",
+                "journal": "arXiv preprint arXiv:1705.03551",
+                "title": "Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension",
+                "url": "https://arxiv.org/abs/1705.03551",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2017": 25,
+                "2018": 99,
+                "2019": 167,
+                "2020": 109
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:D_sINldO8mEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We consider the problem of learning to parse sentences to lambda-calculus representations of their underlying semantics and present an algorithm that learns a weighted combinatory categorial grammar (CCG). A key idea is to introduce non-standard CCG combinators that relax certain parts of the grammar\u2014for example allowing flexible word order, or insertion of lexical items\u2014with learned costs. We also present a new, online algorithm for inducing a weighted CCG. Results for the approach on ATIS data show 86% F-measure in recovering fully correct semantic analyses and 95.9% F-measure by a partial-match criterion, a more than 5% improvement over the 90.3% partial-match figure reported by He and Young (2006).",
+                "author": "Luke Zettlemoyer and Michael Collins",
+                "cites": "10578916325753701630",
+                "eprint": "https://www.aclweb.org/anthology/D07-1071.pdf",
+                "pages": "678-687",
+                "title": "Online learning of relaxed CCG grammars for parsing to logical form",
+                "url": "https://www.aclweb.org/anthology/D07-1071.pdf",
+                "year": "2007"
+            },
+            "cites_per_year": {
+                "2007": 4,
+                "2008": 11,
+                "2009": 24,
+                "2010": 18,
+                "2011": 16,
+                "2012": 30,
+                "2013": 37,
+                "2014": 46,
+                "2015": 40,
+                "2016": 31,
+                "2017": 35,
+                "2018": 40,
+                "2019": 51,
+                "2020": 12
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:u-x6o8ySG0sC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "This paper describes AllenNLP, a platform for research on deep learning methods in natural language understanding. AllenNLP is designed to support researchers who want to build novel language understanding models quickly and easily. It is built on top of PyTorch, allowing for dynamic computation graphs, and provides (1) a flexible data API that handles intelligent batching and padding,(2) high-level abstractions for common operations in working with text, and (3) a modular and extensible experiment framework that makes doing good science easy. It also includes reference implementations of high quality approaches for both core semantic problems (eg semantic role labeling (Palmer et al., 2005)) and language understanding applications (eg machine comprehension (Rajpurkar et al., 2016)). AllenNLP is an ongoing open-source effort maintained by engineers and researchers at the Allen Institute for Artificial Intelligence.",
+                "author": "Matt Gardner and Joel Grus and Mark Neumann and Oyvind Tafjord and Pradeep Dasigi and Nelson Liu and Matthew Peters and Michael Schmitz and Luke Zettlemoyer",
+                "cites": "5689715040196432151",
+                "eprint": "https://arxiv.org/pdf/1803.07640",
+                "journal": "arXiv preprint arXiv:1803.07640",
+                "title": "Allennlp: A deep semantic natural language processing platform",
+                "url": "https://arxiv.org/abs/1803.07640",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 38,
+                "2019": 200,
+                "2020": 143
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:HE397vMXCloC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "The context in which language is used provides a strong signal for learning to                     recover its meaning. In this paper, we show it can be used within a grounded CCG                     semantic parsing approach that learns a joint model of meaning and context for                     interpreting and executing natural language instructions, using various types of                     weak supervision. The joint nature provides crucial benefits by allowing                     situated cues, such as the set of visible objects, to directly influence                     learning. It also enables algorithms that learn while executing instructions,                     for example by trying to replicate human actions. Experiments on a benchmark                     navigational dataset demonstrate strong performance under differing forms of                     supervision, including correctly executing 60% more instruction sets relative to                     the previous state of the art.",
+                "author": "Yoav Artzi and Luke Zettlemoyer",
+                "cites": "10234662748684691148",
+                "eprint": "https://www.mitpressjournals.org/doi/pdfplus/10.1162/tacl_a_00209",
+                "journal": "Transactions of the Association for Computational Linguistics",
+                "pages": "49-62",
+                "publisher": "MIT Press",
+                "title": "Weakly supervised learning of semantic parsers for mapping instructions to actions",
+                "url": "https://www.mitpressjournals.org/doi/abs/10.1162/tacl_a_00209",
+                "volume": "1",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2013": 15,
+                "2014": 26,
+                "2015": 34,
+                "2016": 37,
+                "2017": 59,
+                "2018": 81,
+                "2019": 69,
+                "2020": 25
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:bEWYMUwI8FkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "As robots become more ubiquitous and capable of performing complex tasks, the importance of enabling untrained users to interact with them has increased. In response, unconstrained natural-language interaction with robots has emerged as a significant research area. We discuss the problem of parsing natural language commands to actions and control structures that can be readily implemented in a robot execution system. Our approach learns a parser based on example pairs of English commands and corresponding control language expressions. We evaluate this approach in the context of following route instructions through an indoor environment, and demonstrate that our system can learn to translate English commands into sequences of desired actions, while correctly capturing the semantic intent of statements involving complex control structures. The procedural nature of our formal \u2026",
+                "author": "Cynthia Matuszek and Evan Herbst and Luke Zettlemoyer and Dieter Fox",
+                "cites": "17979885498331548978",
+                "eprint": "https://mdsoar.org/bitstream/handle/11603/14363/MatuszekISER2012.pdf?sequence=1&isAllowed=y",
+                "pages": "403-415",
+                "publisher": "Springer, Heidelberg",
+                "title": "Learning to parse natural language commands to a robot control system",
+                "url": "https://link.springer.com/chapter/10.1007/978-3-319-00065-7_28",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2012": 5,
+                "2013": 25,
+                "2014": 29,
+                "2015": 41,
+                "2016": 51,
+                "2017": 58,
+                "2018": 49,
+                "2019": 66,
+                "2020": 18
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:TQgYirikUcIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We consider the problem of open-domain question answering (Open QA) over massive knowledge bases (KBs). Existing approaches use either manually curated KBs like Freebase or KBs automatically extracted from unstructured text. In this paper, we present OQA, the first approach to leverage both curated and extracted KBs.",
+                "author": "Anthony Fader and Luke Zettlemoyer and Oren Etzioni",
+                "cites": "8232939290224549712",
+                "eprint": "http://homes.cs.washington.edu/~lsz/papers/fze-kdd14.pdf",
+                "pages": "1156-1165",
+                "title": "Open question answering over curated and extracted knowledge bases",
+                "url": "https://dl.acm.org/doi/abs/10.1145/2623330.2623677",
+                "year": "2014"
+            },
+            "cites_per_year": {
+                "2014": 9,
+                "2015": 32,
+                "2016": 65,
+                "2017": 48,
+                "2018": 71,
+                "2019": 79,
+                "2020": 29
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:RGFaLdJalmkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We introduce the first end-to-end coreference resolution model and show that it significantly outperforms all previous work without using a syntactic parser or hand-engineered mention detector. The key idea is to directly consider all spans in a document as potential mentions and learn distributions over possible antecedents for each. The model computes span embeddings that combine context-dependent boundary representations with a head-finding attention mechanism. It is trained to maximize the marginal likelihood of gold antecedent spans from coreference clusters and is factored to enable aggressive pruning of potential mentions. Experiments demonstrate state-of-the-art performance, with a gain of 1.5 F1 on the OntoNotes benchmark and by 3.1 F1 using a 5-model ensemble, despite the fact that this is the first approach to be successfully trained with no external resources.",
+                "author": "Kenton Lee and Luheng He and Mike Lewis and Luke Zettlemoyer",
+                "cites": "17942002369439227392",
+                "eprint": "https://arxiv.org/pdf/1707.07045",
+                "journal": "arXiv preprint arXiv:1707.07045",
+                "title": "End-to-end neural coreference resolution",
+                "url": "https://arxiv.org/abs/1707.07045",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2017": 7,
+                "2018": 83,
+                "2019": 155,
+                "2020": 64
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:kRWSkSYxWN8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We consider the challenge of learning semantic parsers that scale to large, open-domain problems, such as question answering with Freebase. In such settings, the sentences cover a wide variety of topics and include many phrases whose meaning is difficult to represent in a fixed target ontology. For example, even simple phrases such as \u2018daughter\u2019and \u2018number of people living in\u2019cannot be directly represented in Freebase, whose ontology instead encodes facts about gender, parenthood, and population. In this paper, we introduce a new semantic parsing approach that learns to resolve such ontological mismatches. The parser is learned from question-answer pairs, uses a probabilistic CCG to build linguistically motivated logicalform meaning representations, and includes an ontology matching model that adapts the output logical forms for each target ontology. Experiments demonstrate state-of-the-art performance on two benchmark semantic parsing datasets, including a nine point accuracy improvement on a recent Freebase QA corpus.",
+                "author": "Tom Kwiatkowski and Eunsol Choi and Yoav Artzi and Luke Zettlemoyer",
+                "cites": "3307293671018304732",
+                "eprint": "https://www.aclweb.org/anthology/D13-1161.pdf",
+                "pages": "1545-1556",
+                "title": "Scaling semantic parsers with on-the-fly ontology matching",
+                "url": "https://www.aclweb.org/anthology/D13-1161.pdf",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2013": 4,
+                "2014": 41,
+                "2015": 54,
+                "2016": 43,
+                "2017": 40,
+                "2018": 47,
+                "2019": 55,
+                "2020": 17
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:J_g5lzvAfSwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "This paper addresses the problem of learning to map sentences to logical form, given training data consisting of natural language sentences paired with logical representations of their meaning. Previous approaches have been designed for particular natural languages or specific meaning representations; here we present a more general method. The approach induces a probabilistic CCG grammar that represents the meaning of individual words and defines how these meanings can be combined to analyze complete sentences. We use higher-order unification to define a hypothesis space containing all grammars consistent with the training data, and develop an online learning algorithm that efficiently searches this space while simultaneously estimating the parameters of a log-linear parsing model. Experiments demonstrate high accuracy on benchmark data sets in four languages with two different meaning representations.",
+                "author": "Tom Kwiatkowksi and Luke Zettlemoyer and Sharon Goldwater and Mark Steedman",
+                "cites": "11044019262170060524",
+                "eprint": "https://www.aclweb.org/anthology/D10-1119.pdf",
+                "pages": "1223-1233",
+                "title": "Inducing probabilistic CCG grammars from logical form with higher-order unification",
+                "url": "https://www.aclweb.org/anthology/D10-1119.pdf",
+                "year": "2010"
+            },
+            "cites_per_year": {
+                "2009": 1,
+                "2010": 2,
+                "2011": 13,
+                "2012": 27,
+                "2013": 42,
+                "2014": 44,
+                "2015": 33,
+                "2016": 34,
+                "2017": 33,
+                "2018": 30,
+                "2019": 28,
+                "2020": 11
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:Se3iqnhoufwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We study question answering as a machine learning problem, and induce a function that maps open-domain questions to queries over a database of web extractions. Given a large, community-authored, question-paraphrase corpus, we demonstrate that it is possible to learn a semantic lexicon and linear ranking function without manually annotating questions. Our approach automatically generalizes a seed lexicon and includes a scalable, parallelized perceptron parameter estimation scheme. Experiments show that our approach more than quadruples the recall of the seed lexicon, with only an 8% loss in precision.",
+                "author": "Anthony Fader and Luke Zettlemoyer and Oren Etzioni",
+                "cites": "3774134567624808256",
+                "eprint": "https://www.aclweb.org/anthology/P13-1158.pdf",
+                "pages": "1608-1618",
+                "title": "Paraphrase-driven learning for open question answering",
+                "url": "https://www.aclweb.org/anthology/P13-1158.pdf",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2013": 5,
+                "2014": 27,
+                "2015": 41,
+                "2016": 46,
+                "2017": 50,
+                "2018": 52,
+                "2019": 47,
+                "2020": 32
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:isC4tDSrTZIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "As robots become more ubiquitous and capable, it becomes ever more important to enable untrained users to easily interact with them. Recently, this has led to study of the language grounding problem, where the goal is to extract representations of the meanings of natural language tied to perception and actuation in the physical world. In this paper, we present an approach for joint learning of language and perception models for grounded attribute induction. Our perception model includes attribute classifiers, for example to detect object color and shape, and the language model is based on a probabilistic categorial grammar that enables the construction of rich, compositional meaning representations. The approach is evaluated on the task of interpreting sentences that describe sets of objects in a physical workspace. We demonstrate accurate task performance and effective latent-variable concept induction in physical grounded scenes.",
+                "author": "Cynthia Matuszek and Nicholas FitzGerald and Luke Zettlemoyer and Liefeng Bo and Dieter Fox",
+                "cites": "1915122098136706103",
+                "eprint": "https://arxiv.org/pdf/1206.6423",
+                "journal": "arXiv preprint arXiv:1206.6423",
+                "title": "A joint model of language and perception for grounded attribute learning",
+                "url": "https://arxiv.org/abs/1206.6423",
+                "year": "2012"
+            },
+            "cites_per_year": {
+                "2012": 2,
+                "2013": 28,
+                "2014": 28,
+                "2015": 48,
+                "2016": 38,
+                "2017": 44,
+                "2018": 38,
+                "2019": 31,
+                "2020": 12
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:_Qo2XoVZTnwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We introduce a new deep learning model for semantic role labeling (SRL) that significantly improves the state of the art, along with detailed analyses to reveal its strengths and limitations. We use a deep highway BiLSTM architecture with constrained decoding, while observing a number of recent best practices for initialization and regularization. Our 8-layer ensemble model achieves 83.2 F1 on theCoNLL 2005 test set and 83.4 F1 on CoNLL 2012, roughly a 10% relative error reduction over the previous state of the art. Extensive empirical analysis of these gains show that (1) deep models excel at recovering long-distance dependencies but can still make surprisingly obvious errors, and (2) that there is still room for syntactic parsers to improve these results.",
+                "author": "Luheng He and Kenton Lee and Mike Lewis and Luke Zettlemoyer",
+                "cites": "9859253676765549138",
+                "eprint": "https://www.aclweb.org/anthology/P17-1044.pdf",
+                "pages": "473-483",
+                "title": "Deep semantic role labeling: What works and what\u2019s next",
+                "url": "https://www.aclweb.org/anthology/P17-1044.pdf",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2017": 16,
+                "2018": 86,
+                "2019": 118,
+                "2020": 40
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:eflP2zaiRacC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "In this paper, we present a reinforcement learning approach for mapping natural language instructions to sequences of executable actions. We assume access to a reward function that defines the quality of the executed actions. During training, the learner repeatedly constructs action sequences for a set of documents, executes those actions, and observes the resulting reward. We use a policy gradient algorithm to estimate the parameters of a log-linear model for action selection. We apply our method to interpret instructions in two domains --- Windows troubleshooting guides and game tutorials. Our results demonstrate that this method can rival supervised learning techniques while requiring few or no annotated training examples.",
+                "author": "Satchuthananthavale RK Branavan and Harr Chen and Luke S Zettlemoyer and Regina Barzilay",
+                "cites": "8614656385659768538",
+                "eprint": "https://dspace.mit.edu/bitstream/handle/1721.1/59313/Barzilay_Reinforcement%20learning.pdf?sequence=1&isAllowed=y",
+                "publisher": "Association for Computational Linguistics",
+                "title": "Reinforcement learning for mapping instructions to actions",
+                "url": "https://dspace.mit.edu/handle/1721.1/59313",
+                "year": "2009"
+            },
+            "cites_per_year": {
+                "2009": 3,
+                "2010": 9,
+                "2011": 17,
+                "2012": 20,
+                "2013": 22,
+                "2014": 30,
+                "2015": 19,
+                "2016": 25,
+                "2017": 34,
+                "2018": 24,
+                "2019": 20,
+                "2020": 14
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:WF5omc3nYNoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "In this article, we work towards the goal of developing agents that can learn to act in complex worlds. We develop a probabilistic, relational planning rule representation that compactly models noisy, nondeterministic action effects, and show how such rules can be effectively learned. Through experiments in simple planning domains and a 3D simulated blocks world with realistic physics, we demonstrate that this learning algorithm allows agents to effectively model world dynamics.",
+                "author": "Hanna M Pasula and Luke S Zettlemoyer and Leslie Pack Kaelbling",
+                "cites": "5645208585243357104",
+                "eprint": "https://www.jair.org/index.php/jair/article/download/10505/25167/",
+                "journal": "Journal of Artificial Intelligence Research",
+                "pages": "309-352",
+                "title": "Learning symbolic models of stochastic domains",
+                "url": "https://www.jair.org/index.php/jair/article/view/10505",
+                "volume": "29",
+                "year": "2007"
+            },
+            "cites_per_year": {
+                "2007": 3,
+                "2008": 12,
+                "2009": 15,
+                "2010": 22,
+                "2011": 22,
+                "2012": 19,
+                "2013": 22,
+                "2014": 18,
+                "2015": 16,
+                "2016": 20,
+                "2017": 14,
+                "2018": 11,
+                "2019": 15,
+                "2020": 8
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:9yKSN-GCB0IC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Lifted inference algorithms exploit repeated structure in probabilistic models to answer queries efficiently. Previous work such as de Salvo Braz et al.\u2019s first-order variable elimination (FOVE) has focused on the sharing of potentials across interchangeable random variables. In this paper, we also exploit interchangeability within individual potentials by introducing counting formulas, which indicate how many of the random variables in a set have each possible value. We present a new lifted inference algorithm, C-FOVE, that not only handles counting formulas in its input, but also creates counting formulas for use in intermediate potentials. C-FOVE can be described succinctly in terms of six operators, along with heuristics for when to apply them. Because counting formulas capture dependencies among large numbers of variables compactly, C-FOVE achieves asymptotic speed improvements compared to FOVE.",
+                "author": "Brian Milch and Luke S Zettlemoyer and Kristian Kersting and Michael Haimes and Leslie Pack Kaelbling",
+                "cites": "14401415479394974692",
+                "eprint": "https://www.aaai.org/Papers/AAAI/2008/AAAI08-168.pdf",
+                "journal": "Aaai",
+                "pages": "1062-1068",
+                "title": "Lifted Probabilistic Inference with Counting Formulas.",
+                "url": "https://www.aaai.org/Papers/AAAI/2008/AAAI08-168.pdf",
+                "volume": "8",
+                "year": "2008"
+            },
+            "cites_per_year": {
+                "2009": 15,
+                "2010": 19,
+                "2011": 25,
+                "2012": 40,
+                "2013": 20,
+                "2014": 19,
+                "2015": 16,
+                "2016": 16,
+                "2017": 12,
+                "2018": 22,
+                "2019": 8,
+                "2020": 3
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:2osOgNQ5qMEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We consider the problem of learning factored probabilistic CCG grammars for semantic parsing from data containing sentences paired with logical-form meaning representations. Traditional CCG lexicons list lexical items that pair words and phrases with syntactic and semantic content. Such lexicons can be inefficient when words appear repeatedly with closely related lexical content. In this paper, we introduce factored lexicons, which include both lexemes to model word meaning and templates to model systematic variation in word usage. We also present an algorithm for learning factored CCG lexicons, along with a probabilistic parse-selection model. Evaluations on benchmark datasets demonstrate that the approach learns highly accurate parsers, whose generalization performance benefits greatly from the lexical factoring.",
+                "author": "Tom Kwiatkowski and Luke Zettlemoyer and Sharon Goldwater and Mark Steedman",
+                "cites": "8869200143735643386",
+                "eprint": "https://www.aclweb.org/anthology/D11-1140.pdf",
+                "pages": "1512-1523",
+                "title": "Lexical generalization in CCG grammar induction for semantic parsing",
+                "url": "https://www.aclweb.org/anthology/D11-1140.pdf",
+                "year": "2011"
+            },
+            "cites_per_year": {
+                "2011": 3,
+                "2012": 15,
+                "2013": 22,
+                "2014": 26,
+                "2015": 24,
+                "2016": 22,
+                "2017": 27,
+                "2018": 28,
+                "2019": 34,
+                "2020": 8
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:ULOm3_A8WrAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present an approach for automatically learning to solve algebra word problems. Our algorithm reasons across sentence boundaries to construct and solve a system of linear equations, while simultaneously recovering an alignment of the variables and numbers in these equations to the problem text. The learning algorithm uses varied supervision, including either full equations or just the final answers. We evaluate performance on a newly gathered corpus of algebra word problems, demonstrating that the system can correctly answer almost 70% of the questions in the dataset. This is, to our knowledge, the first learning result for this task.",
+                "author": "Nate Kushman and Yoav Artzi and Luke Zettlemoyer and Regina Barzilay",
+                "cites": "14739593546405889718",
+                "eprint": "https://www.aclweb.org/anthology/P14-1026.pdf",
+                "pages": "271-281",
+                "title": "Learning to automatically solve algebra word problems",
+                "url": "https://www.aclweb.org/anthology/P14-1026.pdf",
+                "year": "2014"
+            },
+            "cites_per_year": {
+                "2013": 1,
+                "2014": 4,
+                "2015": 19,
+                "2016": 34,
+                "2017": 31,
+                "2018": 35,
+                "2019": 52,
+                "2020": 21
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:RYcK_YlVTxYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "High quality source code is often paired with high level summaries of the computation it performs, for example in code documentation or in descriptions posted in online forums. Such summaries are extremely useful for applications such as code search but are expensive to manually author, hence only done for a small fraction of all code that is produced. In this paper, we present the first completely datadriven approach for generating high level summaries of source code. Our model, CODE-NN, uses Long Short Term Memory (LSTM) networks with attention to produce sentences that describe C# code snippets and SQL queries. CODE-NN is trained on a new corpus that is automatically collected from StackOverflow, which we release. Experiments demonstrate strong performance on two tasks:(1) code summarization, where we establish the first end-to-end learning results and outperform strong baselines, and (2) code retrieval, where our learned model improves the state of the art on a recently introduced C# benchmark by a large margin.",
+                "author": "Srinivasan Iyer and Ioannis Konstas and Alvin Cheung and Luke Zettlemoyer",
+                "cites": "2417292583777494193",
+                "eprint": "https://www.aclweb.org/anthology/P16-1195.pdf",
+                "pages": "2073-2083",
+                "title": "Summarizing source code using a neural attention model",
+                "url": "https://www.aclweb.org/anthology/P16-1195.pdf",
+                "year": "2016"
+            },
+            "cites_per_year": {
+                "2016": 1,
+                "2017": 18,
+                "2018": 47,
+                "2019": 65,
+                "2020": 56
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:uWQEDVKXjbEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We consider the problem of learning context-dependent mappings from sentences to logical form. The training examples are sequences of sentences annotated with lambda-calculus meaning representations. We develop an algorithm that maintains explicit, lambda-calculus representations of salient discourse entities and uses a context-dependent analysis pipeline to recover logical forms. The method uses a hidden-variable variant of the perception algorithm to learn a linear model used to select the best analysis. Experiments on context-dependent utterances from the ATIS corpus show that the method recovers fully correct logical forms with 83.7% accuracy.",
+                "author": "Luke S Zettlemoyer and Michael Collins",
+                "cites": "16412162914864956348",
+                "eprint": "https://dspace.mit.edu/bitstream/handle/1721.1/59354/Collins_Learning%20context.pdf%3Bjsessionid%3DB49966FA4508E21A07EDB044CAD37103?sequence%3D1",
+                "publisher": "Association for Computing Machinery",
+                "title": "Learning context-dependent mappings from sentences to logical form",
+                "url": "https://dspace.mit.edu/handle/1721.1/59354",
+                "year": "2009"
+            },
+            "cites_per_year": {
+                "2009": 4,
+                "2010": 20,
+                "2011": 20,
+                "2012": 16,
+                "2013": 17,
+                "2014": 26,
+                "2015": 20,
+                "2016": 11,
+                "2017": 14,
+                "2018": 13,
+                "2019": 19,
+                "2020": 5
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:zYLM7Y9cAGgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present QuAC, a dataset for Question Answering in Context that contains 14K information-seeking QA dialogs (100K questions in total). The dialogs involve two crowd workers:(1) a student who poses a sequence of freeform questions to learn as much as possible about a hidden Wikipedia text, and (2) a teacher who answers the questions by providing short excerpts from the text. QuAC introduces challenges not found in existing machine comprehension datasets: its questions are often more open-ended, unanswerable, or only meaningful within the dialog context, as we show in a detailed qualitative evaluation. We also report results for a number of reference models, including a recently state-of-the-art reading comprehension architecture extended to model dialog context. Our best model underperforms humans by 20 F1, suggesting that there is significant room for future work on this data. Dataset, baseline, and leaderboard available at this http URL.",
+                "author": "Eunsol Choi and He He and Mohit Iyyer and Mark Yatskar and Wen-tau Yih and Yejin Choi and Percy Liang and Luke Zettlemoyer",
+                "cites": "1978251881583988813",
+                "eprint": "https://arxiv.org/pdf/1808.07036",
+                "journal": "arXiv preprint arXiv:1808.07036",
+                "title": "Quac: Question answering in context",
+                "url": "https://arxiv.org/abs/1808.07036",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2017": 1,
+                "2018": 14,
+                "2019": 85,
+                "2020": 64
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:ZuybSZzF8UAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Because narrative plays such a central role in cognition and culture, narrative-centered curricula have been the subject of increasing attention. By taking advantage of the inherent structure of narrative, narrative-centered learning environments could provide engaging worlds in which students are actively involved in motivating storybuilding activities. The fundamental hypothesis of this research program is that by enabling learners to be co-constructors of narratives, narrativecentered learning environments can promote the deep, connection-building meaning-making activities that define constructivist learning. We outline tile features of narrative that support eonstructivist learning, explore the key issues in introducing narrative into learning environments, consider how these environments can support one particular subject matter, literacy education, and sketch the research agenda required to make narrativecentered learning environments a reality.",
+                "author": "Bradford W Mott and Charles B Callaway and Luke S Zettlemoyer and Seung Y Lee and James C Lester",
+                "cites": "7400547563887736575",
+                "eprint": "https://www.aaai.org/Papers/Symposia/Fall/1999/FS-99-01/FS99-01-013.pdf",
+                "journal": "Proceedings of the 1999 AAAI fall symposium on narrative intelligence",
+                "pages": "78-82",
+                "title": "Towards narrative-centered learning environments",
+                "url": "https://www.aaai.org/Papers/Symposia/Fall/1999/FS-99-01/FS99-01-013.pdf",
+                "year": "1999"
+            },
+            "cites_per_year": {
+                "2001": 1,
+                "2002": 1,
+                "2003": 2,
+                "2004": 9,
+                "2005": 5,
+                "2006": 9,
+                "2007": 5,
+                "2008": 13,
+                "2009": 17,
+                "2010": 15,
+                "2011": 9,
+                "2012": 5,
+                "2013": 17,
+                "2014": 13,
+                "2015": 10,
+                "2016": 6,
+                "2017": 6,
+                "2018": 7,
+                "2019": 5,
+                "2020": 4
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:d1gkVwhDpl0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We propose syntactically controlled paraphrase networks (SCPNs) and use them to generate adversarial examples. Given a sentence and a target syntactic form (eg, a constituency parse), SCPNs are trained to produce a paraphrase of the sentence with the desired syntax. We show it is possible to create training data for this task by first doing backtranslation at a very large scale, and then using a parser to label the syntactic transformations that naturally occur during this process. Such data allows us to train a neural encoder-decoder model with extra inputs to specify the target syntax. A combination of automated and human evaluations show that SCPNs generate paraphrases that follow their target specifications without decreasing paraphrase quality when compared to baseline (uncontrolled) paraphrase systems. Furthermore, they are more capable of generating syntactically adversarial examples that both (1)\" fool\" pretrained models and (2) improve the robustness of these models to syntactic variation when used to augment their training data.",
+                "author": "Mohit Iyyer and John Wieting and Kevin Gimpel and Luke Zettlemoyer",
+                "cites": "790591304759926903",
+                "eprint": "https://arxiv.org/pdf/1804.06059",
+                "journal": "arXiv preprint arXiv:1804.06059",
+                "title": "Adversarial example generation with syntactically controlled paraphrase networks",
+                "url": "https://arxiv.org/abs/1804.06059",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2017": 3,
+                "2018": 17,
+                "2019": 76,
+                "2020": 61
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:tkaPQYYpVKoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Sequence-to-sequence models have shown strong performance across a broad range of applications. However, their application to parsing and generating text usingAbstract Meaning Representation (AMR) has been limited, due to the relatively limited amount of labeled data and the non-sequential nature of the AMR graphs. We present a novel training procedure that can lift this limitation using millions of unlabeled sentences and careful preprocessing of the AMR graphs. For AMR parsing, our model achieves competitive results of 62.1 SMATCH, the current best score reported without significant use of external semantic resources. For AMR generation, our model establishes a new state-of-the-art performance of BLEU 33.8. We present extensive ablative and qualitative analysis including strong evidence that sequence-based AMR models are robust against ordering variations of graph-to-sequence conversions.",
+                "author": "Ioannis Konstas and Srinivasan Iyer and Mark Yatskar and Yejin Choi and Luke Zettlemoyer",
+                "cites": "4497152596276591297",
+                "eprint": "https://arxiv.org/pdf/1704.08381",
+                "journal": "arXiv preprint arXiv:1704.08381",
+                "title": "Neural amr: Sequence-to-sequence models for parsing and generation",
+                "url": "https://arxiv.org/abs/1704.08381",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2017": 14,
+                "2018": 49,
+                "2019": 53,
+                "2020": 32
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:VOx2b1Wkg3QC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "In this paper, we present an algorithm for learning a generative model of natural language sentences together with their formal meaning representations with hierarchical structures. The model is applied to the task of mapping sentences to hierarchical representations of their underlying meaning. We introduce dynamic programming techniques for efficient training and decoding. In experiments, we demonstrate that the model, when coupled with a discriminative reranking technique, achieves state-of-the-art performance when tested on two publicly available corpora. The generative model degrades robustly when presented with instances that are different from those seen in training. This allows a notable improvement in recall compared to previous models.",
+                "author": "Wei Lu and Hwee Tou Ng and Wee Sun Lee and Luke Zettlemoyer",
+                "cites": "15075324933501768464",
+                "eprint": "https://www.aclweb.org/anthology/D08-1082.pdf",
+                "pages": "783-792",
+                "title": "A generative model for parsing natural language to meaning representations",
+                "url": "https://www.aclweb.org/anthology/D08-1082.pdf",
+                "year": "2008"
+            },
+            "cites_per_year": {
+                "2009": 7,
+                "2010": 6,
+                "2011": 11,
+                "2012": 15,
+                "2013": 19,
+                "2014": 21,
+                "2015": 13,
+                "2016": 9,
+                "2017": 9,
+                "2018": 13,
+                "2019": 10,
+                "2020": 4
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:LkGwnXOMwfcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Recurrent neural networks can generate locally coherent text but often have difficulties representing what has already been generated and what still needs to be said\u2013especially when constructing long texts. We present the neural checklist model, a recurrent neural network that models global coherence by storing and updating an agenda of text strings which should be mentioned somewhere in the output. The model generates output by dynamically adjusting the interpolation among a language model and a pair of attention models that encourage references to agenda items. Evaluations on cooking recipes and dialogue system responses demonstrate high coherence with greatly improved semantic coverage of the agenda.",
+                "author": "Chlo\u00e9 Kiddon and Luke Zettlemoyer and Yejin Choi",
+                "cites": "3067085892454087884",
+                "eprint": "https://www.aclweb.org/anthology/D16-1032.pdf",
+                "pages": "329-339",
+                "title": "Globally coherent text generation with neural checklist models",
+                "url": "https://www.aclweb.org/anthology/D16-1032.pdf",
+                "year": "2016"
+            },
+            "cites_per_year": {
+                "2016": 2,
+                "2017": 16,
+                "2018": 41,
+                "2019": 54,
+                "2020": 22
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:5ugPr518TE4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present an approach to rapidly and easily build natural language interfaces to databases for new domains, whose performance improves over time based on user feedback, and requires minimal intervention. To achieve this, we adapt neural sequence models to map utterances directly to SQL with its full expressivity, bypassing any intermediate meaning representations. These models are immediately deployed online to solicit feedback from real users to flag incorrect queries. Finally, the popularity of SQL facilitates gathering annotations for incorrect predictions using the crowd, which is directly used to improve our models. This complete feedback loop, without intermediate representations or database specific engineering, opens up new ways of building high quality semantic parsers. Experiments suggest that this approach can be deployed quickly for any new target domain, as we show by learning a semantic parser for an online academic database from scratch.",
+                "author": "Srinivasan Iyer and Ioannis Konstas and Alvin Cheung and Jayant Krishnamurthy and Luke Zettlemoyer",
+                "cites": "12404127910926153359",
+                "eprint": "https://arxiv.org/pdf/1704.08760",
+                "journal": "arXiv preprint arXiv:1704.08760",
+                "title": "Learning a neural semantic parser from user feedback",
+                "url": "https://arxiv.org/abs/1704.08760",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2016": 1,
+                "2017": 5,
+                "2018": 42,
+                "2019": 57,
+                "2020": 31
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:eJXPG6dFmWUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We propose a grammar induction technique for AMR semantic parsing. While previous grammar induction techniques were designed to re-learn a new parser for each target application, the recently annotated AMR Bank provides a unique opportunity to induce a single model for understanding broad-coverage newswire text and support a wide range of applications. We present a new model that combines CCG parsing to recover compositional aspects of meaning and a factor graph to model non-compositional phenomena, such as anaphoric dependencies. Our approach achieves 66.2 Smatch F1 score on the AMR bank, significantly outperforming the previous state of the art.",
+                "author": "Yoav Artzi and Kenton Lee and Luke Zettlemoyer",
+                "cites": "4939010191330835095",
+                "eprint": "https://www.aclweb.org/anthology/D15-1198.pdf",
+                "pages": "1699-1710",
+                "title": "Broad-coverage CCG semantic parsing with AMR",
+                "url": "https://www.aclweb.org/anthology/D15-1198.pdf",
+                "year": "2015"
+            },
+            "cites_per_year": {
+                "2015": 4,
+                "2016": 35,
+                "2017": 31,
+                "2018": 27,
+                "2019": 29,
+                "2020": 6
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:pyW8ca7W8N0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Conversations provide rich opportunities for interactive, continuous learning. When something goes wrong, a system can ask for clarification, rewording, or otherwise redirect the interaction to achieve its goals. In this paper, we present an approach for using conversational interactions of this type to induce semantic parsers. We demonstrate learning without any explicit annotation of the meanings of user utterances. Instead, we model meaning with latent variables, and introduce a loss function to measure how well potential meanings match the conversation. This loss drives the overall learning approach, which induces a weighted CCG grammar that could be used to automatically bootstrap the semantic analysis component in a complete dialog system. Experiments on DARPA Communicator conversational logs demonstrate effective learning, despite requiring no explicit meaning annotations.",
+                "author": "Yoav Artzi and Luke Zettlemoyer",
+                "cites": "14216213741186440945",
+                "eprint": "https://www.aclweb.org/anthology/D11-1039.pdf",
+                "pages": "421-432",
+                "title": "Bootstrapping semantic parsers from conversations",
+                "url": "https://www.aclweb.org/anthology/D11-1039.pdf",
+                "year": "2011"
+            },
+            "cites_per_year": {
+                "2011": 2,
+                "2012": 6,
+                "2013": 18,
+                "2014": 19,
+                "2015": 15,
+                "2016": 9,
+                "2017": 15,
+                "2018": 18,
+                "2019": 19,
+                "2020": 7
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:YOwf2qJgpHMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present SpanBERT, a pre-training method that is designed to better represent and predict spans of text. Our approach extends BERT by (1) masking contiguous random spans, rather than random tokens, and (2) training the span boundary representations to predict the entire content of the masked span, without relying on the individual token representations within it. SpanBERT consistently outperforms BERT and our better-tuned baselines, with substantial gains on span selection tasks such as question answering and coreference resolution. In particular, with the same training data and model size as BERTlarge, our single model obtains 94.6% and 88.7% F1 on SQuAD 1.1 and 2.0 respectively. We also achieve a new state of the art on the OntoNotes coreference resolution task (79.6% F1), strong performance on the TACRED relation extraction benchmark, and even gains on GLUE.",
+                "author": "Mandar Joshi and Danqi Chen and Yinhan Liu and Daniel S Weld and Luke Zettlemoyer and Omer Levy",
+                "cites": "14676555484631167909",
+                "eprint": "https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00300",
+                "journal": "Transactions of the Association for Computational Linguistics",
+                "pages": "64-77",
+                "publisher": "MIT Press",
+                "title": "Spanbert: Improving pre-training by representing and predicting spans",
+                "url": "https://www.mitpressjournals.org/doi/abs/10.1162/tacl_a_00300",
+                "volume": "8",
+                "year": "2020"
+            },
+            "cites_per_year": {
+                "2019": 36,
+                "2020": 87
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:XD-gHx7UXLsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "This paper introduces situation recognition, the problem of producing a concise summary of the situation an image depicts including:(1) the main activity (eg, clipping),(2) the participating actors, objects, substances, and locations (eg, man, shears, sheep, wool, and field) and most importantly (3) the roles these participants play in the activity (eg, the man is clipping, the shears are his tool, the wool is being clipped from the sheep, and the clipping is in a field). We use FrameNet, a verb and role lexicon developed by linguists, to define a large space of possible situations and collect a large-scale dataset containing over 500 activities, 1,700 roles, 11,000 objects, 125,000 images, and 200,000 unique situations. We also introduce structured prediction baselines and show that, in activity-centric images, situation-driven prediction of objects and activities outperforms independent object and activity recognition.",
+                "author": "Mark Yatskar and Luke Zettlemoyer and Ali Farhadi",
+                "cites": "14769542088507071062",
+                "eprint": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yatskar_Situation_Recognition_Visual_CVPR_2016_paper.pdf",
+                "pages": "5534-5542",
+                "title": "Situation recognition: Visual semantic role labeling for image understanding",
+                "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Yatskar_Situation_Recognition_Visual_CVPR_2016_paper.html",
+                "year": "2016"
+            },
+            "cites_per_year": {
+                "2016": 4,
+                "2017": 26,
+                "2018": 30,
+                "2019": 27,
+                "2020": 31
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:nb7KW1ujOQ8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "As robots become more ubiquitous, it is increasingly important for untrained users to be able to interact with them intuitively. In this work, we investigate how people refer to objects in the world during relatively unstructured communication with robots. We collect a corpus of deictic interactions from users describing objects, which we use to train language and gesture models that allow our robot to determine what objects are being indicated. We introduce a temporal extension to state-of-the-art hierarchical matching pursuit features to support gesture understanding, and demonstrate that combining multiple communication modalities more effectively captures user intent than relying on a single type of input. Finally, we present initial interactions with a robot that uses the learned models to follow commands while continuing to learn from user input.",
+                "author": "Cynthia Matuszek and Liefeng Bo and Luke Zettlemoyer and Dieter Fox",
+                "cites": "7658178669157540951",
+                "eprint": "https://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/download/8327/8649",
+                "title": "Learning from unscripted deictic gesture and language for human-robot interactions",
+                "url": "https://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/viewPaper/8327",
+                "year": "2014"
+            },
+            "cites_per_year": {
+                "2014": 2,
+                "2015": 14,
+                "2016": 18,
+                "2017": 25,
+                "2018": 23,
+                "2019": 11,
+                "2020": 17
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:vV6vV6tmYwMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "In this paper, we address the task of mapping high-level instructions to sequences of commands in an external environment. Processing these instructions is challenging\u2014they posit goals to be achieved without specifying the steps required to complete them. We describe a method that fills in missing information using an automatically derived environment model that encodes states, transitions, and commands that cause these transitions to happen. We present an efficient approximate approach for learning this environment model as part of a policygradient reinforcement learning algorithm for text interpretation. This design enables learning for mapping high-level instructions, which previous statistical methods cannot handle. 1",
+                "author": "SRK Branavan and Luke S Zettlemoyer and Regina Barzilay",
+                "cites": "8500848705543502878",
+                "eprint": "https://dspace.mit.edu/bitstream/handle/1721.1/62213/Barzilay_Reading%20between.pdf?sequence=1",
+                "publisher": "Association for Computational Linguistics",
+                "title": "Reading between the lines: Learning to map high-level instructions to commands",
+                "url": "https://dspace.mit.edu/handle/1721.1/62213",
+                "year": "2010"
+            },
+            "cites_per_year": {
+                "2009": 1,
+                "2010": 4,
+                "2011": 15,
+                "2012": 12,
+                "2013": 13,
+                "2014": 15,
+                "2015": 12,
+                "2016": 11,
+                "2017": 10,
+                "2018": 9,
+                "2019": 7
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:MXK_kJrjxJIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We introduce a fully differentiable approximation to higher-order inference for coreference resolution. Our approach uses the antecedent distribution from a span-ranking architecture as an attention mechanism to iteratively refine span representations. This enables the model to softly consider multiple hops in the predicted clusters. To alleviate the computational cost of this iterative process, we introduce a coarse-to-fine approach that incorporates a less accurate but more efficient bilinear factor, enabling more aggressive pruning without hurting accuracy. Compared to the existing state-of-the-art span-ranking approach, our model significantly improves accuracy on the English OntoNotes benchmark, while being far more computationally efficient.",
+                "author": "Kenton Lee and Luheng He and Luke Zettlemoyer",
+                "cites": "8854562905498791944",
+                "eprint": "https://arxiv.org/pdf/1804.05392",
+                "journal": "arXiv preprint arXiv:1804.05392",
+                "title": "Higher-order coreference resolution with coarse-to-fine inference",
+                "url": "https://arxiv.org/abs/1804.05392",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 15,
+                "2019": 59,
+                "2020": 33
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:Y5dfb0dijaUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We show that relation extraction can be reduced to answering simple reading comprehension questions, by associating one or more natural-language questions with each relation slot. This reduction has several advantages: we can (1) learn relation-extraction models by extending recent neural reading-comprehension techniques,(2) build very large training sets for those models by combining relation-specific crowd-sourced questions with distant supervision, and even (3) do zero-shot learning by extracting new relation types that are only specified at test-time, for which we have no labeled training examples. Experiments on a Wikipedia slot-filling task demonstrate that the approach can generalize to new questions for known relation types with high accuracy, and that zero-shot generalization to unseen relation types is possible, at lower accuracy levels, setting the bar for future work on this task.",
+                "author": "Omer Levy and Minjoon Seo and Eunsol Choi and Luke Zettlemoyer",
+                "cites": "1839997200582981079",
+                "eprint": "https://arxiv.org/pdf/1706.04115",
+                "journal": "arXiv preprint arXiv:1706.04115",
+                "title": "Zero-shot relation extraction via reading comprehension",
+                "url": "https://arxiv.org/abs/1706.04115",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2016": 1,
+                "2017": 1,
+                "2018": 23,
+                "2019": 55,
+                "2020": 28
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:q3oQSFYPqjQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Contextual word representations derived from pre-trained bidirectional language models (biLMs) have recently been shown to provide significant improvements to the state of the art for a wide range of NLP tasks. However, many questions remain as to how and why these models are so effective. In this paper, we present a detailed empirical study of how the choice of neural architecture (eg LSTM, CNN, or self attention) influences both end task accuracy and qualitative properties of the representations that are learned. We show there is a tradeoff between speed and accuracy, but all architectures learn high quality contextual representations that outperform word embeddings for four challenging NLP tasks. Additionally, all architectures learn representations that vary with network depth, from exclusively morphological based at the word embedding layer through local syntax based in the lower contextual layers to longer range semantics such coreference at the upper layers. Together, these results suggest that unsupervised biLMs, independent of architecture, are learning much more about the structure of language than previously appreciated.",
+                "author": "Matthew E Peters and Mark Neumann and Luke Zettlemoyer and Wen-tau Yih",
+                "cites": "10807147810942689773",
+                "eprint": "https://arxiv.org/pdf/1808.08949",
+                "journal": "arXiv preprint arXiv:1808.08949",
+                "title": "Dissecting contextual word embeddings: Architecture and representation",
+                "url": "https://arxiv.org/abs/1808.08949",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 5,
+                "2019": 61,
+                "2020": 39
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:1yQoGdGgb4wC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present BART, a denoising autoencoder for pretraining sequence-to-sequence models. BART is trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text. It uses a standard Tranformer-based neural machine translation architecture which, despite its simplicity, can be seen as generalizing BERT (due to the bidirectional encoder), GPT (with the left-to-right decoder), and many other more recent pretraining schemes. We evaluate a number of noising approaches, finding the best performance by both randomly shuffling the order of the original sentences and using a novel in-filling scheme, where spans of text are replaced with a single mask token. BART is particularly effective when fine tuned for text generation but also works well for comprehension tasks. It matches the performance of RoBERTa with comparable training resources on GLUE and SQuAD, achieves new state-of-the-art results on a range of abstractive dialogue, question answering, and summarization tasks, with gains of up to 6 ROUGE. BART also provides a 1.1 BLEU increase over a back-translation system for machine translation, with only target language pretraining. We also report ablation experiments that replicate other pretraining schemes within the BART framework, to better measure which factors most influence end-task performance.",
+                "author": "Mike Lewis and Yinhan Liu and Naman Goyal and Marjan Ghazvininejad and Abdelrahman Mohamed and Omer Levy and Ves Stoyanov and Luke Zettlemoyer",
+                "cites": "10589398302527104823",
+                "eprint": "https://arxiv.org/pdf/1910.13461",
+                "journal": "arXiv preprint arXiv:1910.13461",
+                "title": "Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension",
+                "url": "https://arxiv.org/abs/1910.13461",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 4,
+                "2020": 94
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:vDijr-p_gm4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "A common task in graphical user interfaces is selecting or activating a single control from a small group of plausible candidates. This task ordinarily requires the same precise movements as any other; if we could reduce the precision needed, however, we might also reduce the target acquisition and activation time. This paper describes the flick gesture, designed for this purpose. Our experimental results demonstrate that the gesture performs well with regard to speed, accuracy, and variability, compared to conventional gestures in a laboratory setting. We also describe a testbed we have implemented in Microsoft Windows that lets us explore and evaluate the use of such gestures in settings with more ecological validity.",
+                "author": "Martin S Dulberg and Robert St Amant and Luke S Zettlemoyer",
+                "cites": "15386842323196863328",
+                "eprint": "http://www.academia.edu/download/47130633/dsz-interact99.pdf",
+                "journal": "Interact",
+                "pages": "375-382",
+                "title": "An Imprecise Mouse Gesture for the Fast Activation of Controls.",
+                "url": "http://books.google.com/books?hl=en&lr=&id=yXehjiOd_kkC&oi=fnd&pg=PA375&dq=info:YGMY6ZELidUJ:scholar.google.com&ots=NWoYuT0zHq&sig=bcGbydTXChF8oyy9R4ztpGyfKyc",
+                "volume": "99",
+                "year": "1999"
+            },
+            "cites_per_year": {
+                "2000": 2,
+                "2001": 4,
+                "2002": 2,
+                "2003": 3,
+                "2004": 4,
+                "2005": 4,
+                "2006": 1,
+                "2007": 5,
+                "2008": 5,
+                "2009": 7,
+                "2010": 6,
+                "2011": 4,
+                "2012": 3,
+                "2013": 5,
+                "2014": 16,
+                "2015": 4,
+                "2016": 4,
+                "2017": 6,
+                "2018": 5,
+                "2019": 3
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:UeHWp8X0CEIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "This paper introduces the task of questionanswer driven semantic role labeling (QA-SRL), where question-answer pairs are used to represent predicate-argument structure. For example, the verb \u201cintroduce\u201d in the previous sentence would be labeled with the questions \u201cWhat is introduced?\u201d, and \u201cWhat introduces something?\u201d, each paired with the phrase from the sentence that gives the correct answer. Posing the problem this way allows the questions themselves to define the set of possible roles, without the need for predefined frame or thematic role ontologies. It also allows for scalable data collection by annotators with very little training and no linguistic expertise. We gather data in two domains, newswire text and Wikipedia articles, and introduce simple classifierbased models for predicting which questions to ask and what their answers should be. Our results show that non-expert annotators can produce high quality QA-SRL data, and also establish baseline performance levels for future work on this task.",
+                "author": "Luheng He and Mike Lewis and Luke Zettlemoyer",
+                "cites": "2275558439474377506",
+                "eprint": "https://www.aclweb.org/anthology/D15-1076.pdf",
+                "pages": "643-653",
+                "title": "Question-answer driven semantic role labeling: Using natural language to annotate natural language",
+                "url": "https://www.aclweb.org/anthology/D15-1076.pdf",
+                "year": "2015"
+            },
+            "cites_per_year": {
+                "2015": 2,
+                "2016": 8,
+                "2017": 13,
+                "2018": 22,
+                "2019": 32,
+                "2020": 12
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:yD5IFk8b50cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "This paper shows that pretraining multilingual language models at scale leads to significant performance gains for a wide range of cross-lingual transfer tasks. We train a Transformer-based masked language model on one hundred languages, using more than two terabytes of filtered CommonCrawl data. Our model, dubbed XLM-R, significantly outperforms multilingual BERT (mBERT) on a variety of cross-lingual benchmarks, including+ 13.8% average accuracy on XNLI,+ 12.3% average F1 score on MLQA, and+ 2.1% average F1 score on NER. XLM-R performs particularly well on low-resource languages, improving 11.8% in XNLI accuracy for Swahili and 9.2% for Urdu over the previous XLM model. We also present a detailed empirical evaluation of the key factors that are required to achieve these gains, including the trade-offs between (1) positive transfer and capacity dilution and (2) the performance of high and low resource languages at scale. Finally, we show, for the first time, the possibility of multilingual modeling without sacrificing per-language performance; XLM-Ris very competitive with strong monolingual models on the GLUE and XNLI benchmarks. We will make XLM-R code, data, and models publicly available.",
+                "author": "Alexis Conneau and Kartikay Khandelwal and Naman Goyal and Vishrav Chaudhary and Guillaume Wenzek and Francisco Guzm\u00e1n and Edouard Grave and Myle Ott and Luke Zettlemoyer and Veselin Stoyanov",
+                "cites": "15150111566933105226",
+                "eprint": "https://arxiv.org/pdf/1911.02116",
+                "journal": "arXiv preprint arXiv:1911.02116",
+                "title": "Unsupervised cross-lingual representation learning at scale",
+                "url": "https://arxiv.org/abs/1911.02116",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 3,
+                "2020": 87
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:Z5m8FVwuT1cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present an algorithm for learning a model of the effects of actions in noisy stochastic worlds. We consider learning in a 3D simulated blocks world with realistic physics. To model this world, we develop a planning representation with explicit mechanisms for expressing object reference and noise. We then present a learning algorithm that can create rules while also learning derived predicates, and evaluate this algorithm in the blocks world simulator, demonstrating that we can learn rules that effectively model the world dynamics.",
+                "author": "Luke S Zettlemoyer and Hanna Pasula and Leslie Pack Kaelbling",
+                "cites": "11782858652740200283",
+                "eprint": "https://www.aaai.org/Papers/AAAI/2005/AAAI05-144.pdf",
+                "pages": "911-918",
+                "title": "Learning planning rules in noisy stochastic worlds",
+                "url": "https://www.aaai.org/Papers/AAAI/2005/AAAI05-144.pdf",
+                "year": "2005"
+            },
+            "cites_per_year": {
+                "2006": 8,
+                "2007": 10,
+                "2008": 12,
+                "2009": 6,
+                "2010": 5,
+                "2011": 11,
+                "2012": 8,
+                "2013": 7,
+                "2014": 4,
+                "2015": 3,
+                "2016": 3,
+                "2017": 5,
+                "2018": 3,
+                "2019": 3,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:qjMakFHDy7sC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "This paper presents an incremental probabilistic learner that models the acquistion of syntax and semantics from a corpus of child-directed utterances paired with possible representations of their meanings. These meaning representations approximate the contextual input available to the child; they do not specify the meanings of individual words or syntactic derivations. The learner then has to infer the meanings and syntactic properties of the words in the input along with a parsing model. We use the CCG grammatical framework and train a non-parametric Bayesian model of parse structure with online variational Bayesian expectation maximization. When tested on utterances from the CHILDES corpus, our learner outperforms a state-of-the-art semantic parser. In addition, it models such aspects of child acquisition as \u201cfast mapping,\u201d while also countering previous criticisms of statistical syntactic learners.",
+                "author": "Tom Kwiatkowski and Sharon Goldwater and Luke Zettlemoyer and Mark Steedman",
+                "cites": "17317245788128692838",
+                "eprint": "https://www.aclweb.org/anthology/E12-1024.pdf",
+                "pages": "234-244",
+                "title": "A probabilistic model of syntactic and semantic acquisition from child-directed utterances and their meanings",
+                "url": "https://www.aclweb.org/anthology/E12-1024.pdf",
+                "year": "2012"
+            },
+            "cites_per_year": {
+                "2012": 10,
+                "2013": 18,
+                "2014": 14,
+                "2015": 13,
+                "2016": 16,
+                "2017": 5,
+                "2018": 4,
+                "2019": 5,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:hFOr9nPyWt4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "To learn to behave in highly complex domains, agents must represent and learn compact models of the world dynamics. In this paper, we present an algorithm for learning probabilistic STRIPS-like planning operators from examples. We demonstrate the effective learning of rule-based operators for a wide range of traditional planning domains.",
+                "author": "Hanna Pasula and Luke S Zettlemoyer and Leslie Pack Kaelbling",
+                "cites": "9789145906570428211",
+                "eprint": "https://www.aaai.org/Papers/ICAPS/2004/ICAPS04-012.pdf",
+                "pages": "73-82",
+                "title": "Learning Probabilistic Relational Planning Rules.",
+                "url": "https://www.aaai.org/Papers/ICAPS/2004/ICAPS04-012.pdf",
+                "year": "2004"
+            },
+            "cites_per_year": {
+                "2003": 1,
+                "2004": 5,
+                "2005": 9,
+                "2006": 8,
+                "2007": 9,
+                "2008": 4,
+                "2009": 3,
+                "2010": 3,
+                "2011": 8,
+                "2012": 7,
+                "2013": 1,
+                "2014": 4,
+                "2015": 7,
+                "2016": 2,
+                "2017": 3,
+                "2018": 5,
+                "2019": 4,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:Tyk-4Ss8FVUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Recent BIO-tagging-based neural semantic role labeling models are very high performing, but assume gold predicates as part of the input and cannot incorporate span-level features. We propose an end-to-end approach for jointly predicting all predicates, arguments spans, and the relations between them. The model makes independent decisions about what relationship, if any, holds between every possible word-span pair, and learns contextualized span representations that provide rich, shared input features for each decision. Experiments demonstrate that this approach sets a new state of the art on PropBank SRL without gold predicates.",
+                "author": "Luheng He and Kenton Lee and Omer Levy and Luke Zettlemoyer",
+                "cites": "4754945209908607374",
+                "eprint": "https://arxiv.org/pdf/1805.04787",
+                "journal": "arXiv preprint arXiv:1805.04787",
+                "title": "Jointly predicting predicates and arguments in neural semantic role labeling",
+                "url": "https://arxiv.org/abs/1805.04787",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 15,
+                "2019": 50,
+                "2020": 18
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:9vf0nzSNQJEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We demonstrate that a state-of-the-art parser can be built using only a lexical tagging model and a deterministic grammar, with no explicit model of bi-lexical dependencies. Instead, all dependencies are implicitly encoded in an LSTM supertagger that assigns CCG lexical categories. The parser significantly outperforms all previously published CCG results, supports efficient and optimal A\u2217 decoding, and benefits substantially from semisupervised tri-training. We give a detailed analysis, demonstrating that the parser can recover long-range dependencies with high accuracy and that the semi-supervised learning enables significant accuracy gains. By running the LSTM on a GPU, we are able to parse over 2600 sentences per second while improving state-of-the-art accuracy by 1.1 F1 in domain and up to 4.5 F1 out of domain.",
+                "author": "Mike Lewis and Kenton Lee and Luke Zettlemoyer",
+                "cites": "7813720538364610378",
+                "eprint": "https://www.aclweb.org/anthology/N16-1026.pdf",
+                "pages": "221-231",
+                "title": "Lstm ccg parsing",
+                "url": "https://www.aclweb.org/anthology/N16-1026.pdf",
+                "year": "2016"
+            },
+            "cites_per_year": {
+                "2016": 8,
+                "2017": 14,
+                "2018": 26,
+                "2019": 25,
+                "2020": 5
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:1sJd4Hv_s6UC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Many errors in coreference resolution come from semantic mismatches due to inadequate world knowledge. Errors in named-entity linking (NEL), on the other hand, are often caused by superficial modeling of entity context. This paper demonstrates that these two tasks are complementary. We introduce NECO, a new model for named entity linking and coreference resolution, which solves both problems jointly, reducing the errors made on each. NECO extends the Stanford deterministic coreference system by automatically linking mentions to Wikipedia and introducing new NEL-informed mention-merging sieves. Linking improves mention-detection and enables new semantic attributes to be incorporated from Freebase, while coreference provides better context modeling by propagating named-entity links within mention clusters. Experiments show consistent improvements across a number of datasets and experimental conditions, including over 11% reduction in MUC coreference error and nearly 21% reduction in F1 NEL error on ACE 2004 newswire data.",
+                "author": "Hannaneh Hajishirzi and Leila Zilles and Daniel S Weld and Luke Zettlemoyer",
+                "cites": "10590854727622283624",
+                "eprint": "https://www.aclweb.org/anthology/D13-1029.pdf",
+                "pages": "289-299",
+                "title": "Joint coreference resolution and named-entity linking with multi-pass sieves",
+                "url": "https://www.aclweb.org/anthology/D13-1029.pdf",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2014": 6,
+                "2015": 16,
+                "2016": 20,
+                "2017": 18,
+                "2018": 8,
+                "2019": 9,
+                "2020": 3
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:GnPB-g6toBAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Distant supervision algorithms learn information extraction models given only                     large readily available databases and text collections. Most previous work has                     used heuristics for generating labeled data, for example assuming that facts not                     contained in the database are not mentioned in the text, and facts in the                     database must be mentioned at least once. In this paper, we propose a new                     latent-variable approach that models missing data. This provides a natural way                     to incorporate side information, for instance modeling the intuition that text                     will often mention rare entities which are likely to be missing in the database.                     Despite the added complexity introduced by reasoning about missing data, we                     demonstrate that a carefully designed local search approach to inference is very                     accurate and scales to large \u2026",
+                "author": "Alan Ritter and Luke Zettlemoyer and Mausam and Oren Etzioni",
+                "cites": "3804814531545491743",
+                "eprint": "https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00234",
+                "journal": "Transactions of the Association for Computational Linguistics",
+                "pages": "367-378",
+                "publisher": "MIT Press",
+                "title": "Modeling missing data in distant supervision for information extraction",
+                "url": "https://www.mitpressjournals.org/doi/abs/10.1162/tacl_a_00234",
+                "volume": "1",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2014": 9,
+                "2015": 17,
+                "2016": 10,
+                "2017": 10,
+                "2018": 17,
+                "2019": 10,
+                "2020": 6
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:M05iB0D1s5AC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Because of their multimodal communicative abilities and strong visual presence, animated pedagogical agents offer significant promise for 3D learning environments. We describe a new class of animated pedagogical agents, explanatory lifelike avatars, which can perform user-designed tasks in rich 3D worlds. By generating task networks to perform student-designed tasks, an avatar task planner constructs and interprets action specifications that it then interprets within the geometries of the 3D environment to generate navigational, manipulative, and verbal behaviors. Filmed by a narrative camera planner in the 3D world, the avatars perform students\u2019 tasks and accompanies them with running verbal explanations in realtime. The explanatory lifelike avatar framework has been implemented in a full-scale avatar for the CPU CITY learning environment, a 3D learning environment for the domain of computer \u2026",
+                "author": "James C Lester and Luke S Zettlemoyer and Jo\u00ebl P Gr\u00e9goire and William H Bares",
+                "cites": "10151921470627675077",
+                "eprint": "http://homes.cs.washington.edu/~lsz/papers/lzgb-agents-99.pdf",
+                "pages": "24-31",
+                "title": "Explanatory lifelike avatars: performing user-centered tasks in 3D learning environments",
+                "url": "https://dl.acm.org/doi/pdf/10.1145/301136.301154",
+                "year": "1999"
+            },
+            "cites_per_year": {
+                "1999": 3,
+                "2000": 8,
+                "2001": 6,
+                "2002": 2,
+                "2003": 5,
+                "2004": 8,
+                "2005": 6,
+                "2006": 7,
+                "2007": 6,
+                "2008": 6,
+                "2009": 5,
+                "2010": 3,
+                "2011": 1,
+                "2012": 1,
+                "2013": 2,
+                "2014": 1,
+                "2015": 2,
+                "2016": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:IjCSPb-OGe4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Agents learning to act autonomously in real-world domains must acquire a model of the dynamics of the domain in which they operate. Learning domain dynamics can be challenging, especially where an agent only has partial access to the world state, and/or noisy external sensors. Even in standard STRIPS domains, existing approaches cannot learn from noisy, incomplete observations typical of real-world domains. We propose a method which learns STRIPS action models in such domains, by decomposing the problem into first learning a transition function between states in the form of a set of classifiers, and then deriving explicit STRIPS rules from the classifiers' parameters. We evaluate our approach on simulated standard planning domains from the International Planning Competition, and show that it learns useful domain descriptions from noisy, incomplete observations.",
+                "author": "Kira Mourao and Luke S Zettlemoyer and Ronald Petrick and Mark Steedman",
+                "cites": "13816837962308501033",
+                "eprint": "https://arxiv.org/pdf/1210.4889",
+                "journal": "arXiv preprint arXiv:1210.4889",
+                "title": "Learning STRIPS operators from noisy and incomplete observations",
+                "url": "https://arxiv.org/abs/1210.4889",
+                "year": "2012"
+            },
+            "cites_per_year": {
+                "2012": 1,
+                "2013": 8,
+                "2014": 6,
+                "2015": 5,
+                "2016": 9,
+                "2017": 19,
+                "2018": 10,
+                "2019": 10,
+                "2020": 4
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:e5wmG9Sq2KIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present an approach for learning context-dependent semantic parsers to identify and interpret time expressions. We use a Combinatory Categorial Grammar to construct compositional meaning representations, while considering contextual cues, such as the document creation time and the tense of the governing verb, to compute the final time values. Experiments on benchmark datasets show that our approach outperforms previous stateof-the-art systems, with error reductions of 13% to 21% in end-to-end performance.",
+                "author": "Kenton Lee and Yoav Artzi and Jesse Dodge and Luke Zettlemoyer",
+                "cites": "7090508782179062567",
+                "eprint": "https://www.aclweb.org/anthology/P14-1135.pdf",
+                "pages": "1437-1447",
+                "title": "Context-dependent semantic parsing for time expressions",
+                "url": "https://www.aclweb.org/anthology/P14-1135.pdf",
+                "year": "2014"
+            },
+            "cites_per_year": {
+                "2013": 1,
+                "2014": 3,
+                "2015": 5,
+                "2016": 14,
+                "2017": 11,
+                "2018": 11,
+                "2019": 16,
+                "2020": 5
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:lSLTfruPkqcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present a new approach to referring expression generation, casting it as a density estimation problem where the goal is to learn distributions over logical expressions identifying sets of objects in the world. Despite an extremely large space of possible expressions, we demonstrate effective learning of a globally normalized log-linear distribution. This learning is enabled by a new, multi-stage approximate inference technique that uses a pruning model to construct only the most likely logical forms. We train and evaluate the approach on a new corpus of references to sets of visual objects. Experiments show the approach is able to learn accurate models, which generate over 87% of the expressions people used. Additionally, on the previously studied special case of single object reference, we show a 35% relative error reduction over previous state of the art.",
+                "author": "Nicholas FitzGerald and Yoav Artzi and Luke Zettlemoyer",
+                "cites": "11589493398598171590",
+                "eprint": "https://www.aclweb.org/anthology/D13-1197.pdf",
+                "pages": "1914-1925",
+                "title": "Learning distributions over logical forms for referring expression generation",
+                "url": "https://www.aclweb.org/anthology/D13-1197.pdf",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2013": 3,
+                "2014": 7,
+                "2015": 7,
+                "2016": 10,
+                "2017": 15,
+                "2018": 9,
+                "2019": 10,
+                "2020": 4
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:2P1L_qKh6hAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present an unsupervised hard EM approach to automatically mapping instructional recipes to action graphs, which define what actions should be performed on which objects and in what order. Recovering such structures can be challenging, due to unique properties of procedural language where, for example, verbal arguments are commonly elided when they can be inferred from context and disambiguation often requires world knowledge. Our probabilistic model incorporates aspects of procedural semantics and world knowledge, such as likely locations and selectional preferences for different actions. Experiments with cooking recipes demonstrate the ability to recover high quality action graphs, outperforming a strong sequential baseline by 8 points in F1, while also discovering general-purpose knowledge about cooking.",
+                "author": "Chlo\u00e9 Kiddon and Ganesa Thandavam Ponnuraj and Luke Zettlemoyer and Yejin Choi",
+                "cites": "18381370974927530986",
+                "eprint": "https://www.aclweb.org/anthology/D15-1114.pdf",
+                "pages": "982-992",
+                "title": "Mise en place: Unsupervised interpretation of instructional recipes",
+                "url": "https://www.aclweb.org/anthology/D15-1114.pdf",
+                "year": "2015"
+            },
+            "cites_per_year": {
+                "2016": 7,
+                "2017": 15,
+                "2018": 14,
+                "2019": 12,
+                "2020": 13
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:a0OBvERweLwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "When a user selects a graphical object on the screen, for example, most PBE systems describe the object in terms of the properties of the underlying application data. If the user selects a link on a Web page, the PBE system might represent that selection based on the link\u2019s HTML properties. Here, we explore a different, and radical, approach\u2014using the visual properties of the interaction elements themselves, including size, shape, color, and appearance\u2014to describe user intentions. Only recently has the speed of image processing made feasible PBE systems\u2019 real-time analysis of screen images. We have not yet realized the goal of a PBE system that uses \u201cvisual generalization\u201d but feel this approach is important enough to warrant describing and promoting the idea publicly.(Visual generalization means the inference of general patterns in user behavior based on the visual properties and relationships of user \u2026",
+                "author": "Robert St. Amant and Henry Lieberman and Richard Potter and Luke Zettlemoyer",
+                "cites": "10929871930276795606",
+                "eprint": "http://people.csail.mit.edu/lsz/papers/slpz-cacm00.pdf",
+                "journal": "Communications of the ACM",
+                "number": "3",
+                "pages": "107-114",
+                "publisher": "ACM",
+                "title": "Programming by example: visual generalization in programming by example",
+                "url": "https://dl.acm.org/doi/fullHtml/10.1145/330534.330549",
+                "volume": "43",
+                "year": "2000"
+            },
+            "cites_per_year": {
+                "2000": 4,
+                "2001": 4,
+                "2002": 6,
+                "2003": 4,
+                "2004": 3,
+                "2005": 4,
+                "2006": 2,
+                "2007": 2,
+                "2008": 2,
+                "2009": 2,
+                "2010": 5,
+                "2011": 8,
+                "2012": 3,
+                "2013": 6,
+                "2014": 2,
+                "2015": 2,
+                "2016": 1,
+                "2017": 1,
+                "2018": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:Y0pCki6q_DkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "The VisMap system provides for visual manipulation of arbitrary off-the-shelf applications, through an applications graphical user interface. VisMaps API-independent control has advantages for tasks that can benefit from direct access to the functions of the user interface. We describe the design goals and architecture of the system, and we discuss two applications, a user-controlled visual scripting program and an autonomous solitaire-playing program, which together demonstrate some of the capabilities and limitations of the approach.",
+                "author": "Luke S Zettlemoyer and Robert St. Amant",
+                "cites": "18213645982646394167",
+                "eprint": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.34.5996&rep=rep1&type=pdf",
+                "pages": "199-206",
+                "title": "A visual medium for programmatic control of interactive applications",
+                "url": "https://dl.acm.org/doi/abs/10.1145/302979.303039",
+                "year": "1999"
+            },
+            "cites_per_year": {
+                "1999": 4,
+                "2000": 7,
+                "2001": 6,
+                "2002": 1,
+                "2003": 4,
+                "2004": 2,
+                "2005": 2,
+                "2006": 1,
+                "2007": 2,
+                "2008": 3,
+                "2009": 5,
+                "2010": 4,
+                "2011": 6,
+                "2012": 1,
+                "2013": 6,
+                "2014": 1,
+                "2015": 1,
+                "2016": 1,
+                "2017": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:W7OEmFMy1HYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "The growing emphasis on learner-centered education focuses on intrinsically motivated learning via engaging problem-solving activities. Habitable 3D learning environments, in which learners guide avatars through virtual worlds for role-based problem solving, hold great promise for situated learning. We have been investigating habitable learning environments by iteratively designing, implementing, and evaluating them. In the Situated Avatar-Based Immersive Learning (SAIL) framework for habitable 3D learning environments, learners navigate avatars through virtual worlds as they solve problems by manipulating artifacts. The SAIL framework has been used to implement CPU CITY, a 3D learning environment testbed for the domain of computer architecture. A visually compelling virtual cityscape of computer components, CPU CITY presents learners with goal advertisements that focus their attention on \u2026",
+                "author": "William H Bares and Luke S Zettlemoyer and James C Lester",
+                "cites": "16276974912146649132",
+                "eprint": "https://multires.eos.ncsu.edu/www-intellimedia-ncsu-edu/wp-content/uploads/sites/28/cpu-its-98.pdf",
+                "pages": "76-85",
+                "publisher": "Springer, Berlin, Heidelberg",
+                "title": "Habitable 3D learning environments for situated learning",
+                "url": "https://link.springer.com/chapter/10.1007/3-540-68716-5_13",
+                "year": "1998"
+            },
+            "cites_per_year": {
+                "1998": 3,
+                "1999": 1,
+                "2000": 1,
+                "2001": 3,
+                "2002": 4,
+                "2003": 3,
+                "2004": 3,
+                "2005": 4,
+                "2006": 4,
+                "2007": 2,
+                "2008": 4,
+                "2009": 4,
+                "2010": 4,
+                "2011": 6,
+                "2012": 2,
+                "2013": 1,
+                "2014": 2,
+                "2015": 1,
+                "2016": 1,
+                "2017": 2,
+                "2018": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:YsMSGLbcyi4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present a new approach for pretraining a bi-directional transformer model that provides significant performance gains across a variety of language understanding problems. Our model solves a cloze-style word reconstruction task, where each word is ablated and must be predicted given the rest of the text. Experiments demonstrate large performance gains on GLUE and new state of the art results on NER as well as constituency parsing benchmarks, consistent with the concurrently introduced BERT model. We also present a detailed analysis of a number of factors that contribute to effective pretraining, including data domain and size, model capacity, and variations on the cloze objective.",
+                "author": "Alexei Baevski and Sergey Edunov and Yinhan Liu and Luke Zettlemoyer and Michael Auli",
+                "cites": "5995204733290096478",
+                "eprint": "https://arxiv.org/pdf/1903.07785.pdf?fbclid=IwAR2eIBWLbo0EShXvIhkMtS9OCwAipX8xKMS3GibEfP5oDwzjRv8r5WdlMtc",
+                "journal": "arXiv preprint arXiv:1903.07785",
+                "title": "Cloze-driven pretraining of self-attention networks",
+                "url": "https://arxiv.org/abs/1903.07785",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 18,
+                "2020": 35
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:7T2F9Uy0os0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present data and methods that enable a supervised learning approach to Open Information Extraction (Open IE). Central to the approach is a novel formulation of Open IE as a sequence tagging problem, addressing challenges such as encoding multiple extractions for a predicate. We also develop a bi-LSTM transducer, extending recent deep Semantic Role Labeling models to extract Open IE tuples and provide confidence scores for tuning their precision-recall tradeoff. Furthermore, we show that the recently released Question-Answer Meaning Representation dataset can be automatically converted into an Open IE corpus which significantly increases the amount of available training data. Our supervised model outperforms the existing state-of-the-art Open IE systems on benchmark datasets.",
+                "author": "Gabriel Stanovsky and Julian Michael and Luke Zettlemoyer and Ido Dagan",
+                "cites": "3580064089107483517",
+                "eprint": "https://www.aclweb.org/anthology/N18-1081.pdf",
+                "pages": "885-895",
+                "title": "Supervised open information extraction",
+                "url": "https://www.aclweb.org/anthology/N18-1081.pdf",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2017": 1,
+                "2018": 2,
+                "2019": 39,
+                "2020": 12
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:5awf1xo2G04C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Robot Programming by Demonstration (PbD) allows users to program a robot by demonstrating the desired behavior. Providing these demonstrations typically involves moving the robot through a sequence of states, often by physically manipulating it. This requires users to be co-located with the robot and have the physical ability to manipulate it. In this paper, we present a natural language based interface for PbD that removes these requirements and enables hands-free programming. We focus on programming object manipulation actions-our key insight is that such actions can be decomposed into known types of manipulator movements that are naturally described using spatial language; e.g., object reference expressions and prepositions. Our method takes a natural language command and the current world state to infer the intended movement command and its parametrization. We implement this method on a \u2026",
+                "author": "Maxwell Forbes and Rajesh PN Rao and Luke Zettlemoyer and Maya Cakmak",
+                "cites": "15169517667957611861",
+                "eprint": "https://hcrlab.cs.washington.edu/assets/pdfs/2015/forbes2015icra.pdf",
+                "pages": "2014-2020",
+                "publisher": "IEEE",
+                "title": "Robot programming by demonstration with situated spatial language understanding",
+                "url": "https://ieeexplore.ieee.org/abstract/document/7139462/",
+                "year": "2015"
+            },
+            "cites_per_year": {
+                "2015": 1,
+                "2016": 5,
+                "2017": 10,
+                "2018": 11,
+                "2019": 18,
+                "2020": 7
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:4OULZ7Gr8RgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Smartphones are convenient, but their small screens make searching, clicking, and reading awkward. Thus, perusing product reviews on a smartphone is difficult. In response, we introduce RevMiner-a novel smartphone interface that utilizes Natural Language Processing techniques to analyze and navigate reviews. RevMiner was run over 300K Yelp restaurant reviews extracting attribute-value pairs, where attributes represent restaurant attributes such as sushi and service, and values represent opinions about the attributes such as fresh or fast. These pairs were aggregated and used to: 1) answer queries such as\" cheap Indian food\", 2) concisely present information about each restaurant, and 3) identify similar restaurants. Our user studies demonstrate that on a smartphone, participants preferred RevMiner's interface to tag clouds and color bars, and that they preferred RevMiner's results to Yelp's, particularly for \u2026",
+                "author": "Jeff Huang and Oren Etzioni and Luke Zettlemoyer and Kevin Clark and Christian Lee",
+                "cites": "11979199345086826308",
+                "eprint": "https://jeffhuang.com/Final_RevMiner_UIST12.pdf",
+                "pages": "3-12",
+                "title": "Revminer: An extractive interface for navigating reviews on a smartphone",
+                "url": "https://dl.acm.org/doi/abs/10.1145/2380116.2380120",
+                "year": "2012"
+            },
+            "cites_per_year": {
+                "2012": 1,
+                "2013": 7,
+                "2014": 8,
+                "2015": 9,
+                "2016": 5,
+                "2017": 10,
+                "2018": 6,
+                "2019": 3,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:R3hNpaxXUhUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Most machine translation systems generate text autoregressively from left to right. We, instead, use a masked language modeling objective to train a model to predict any subset of the target words, conditioned on both the input text and a partially masked target translation. This approach allows for efficient iterative decoding, where we first predict all of the target words non-autoregressively, and then repeatedly mask out and regenerate the subset of words that the model is least confident about. By applying this strategy for a constant number of iterations, our model improves state-of-the-art performance levels for non-autoregressive and parallel decoding translation models by over 4 BLEU on average. It is also able to reach within about 1 BLEU point of a typical left-to-right transformer model, while decoding significantly faster.",
+                "author": "Marjan Ghazvininejad and Omer Levy and Yinhan Liu and Luke Zettlemoyer",
+                "cites": "2142298168080934766",
+                "eprint": "https://arxiv.org/pdf/1904.09324",
+                "journal": "arXiv preprint arXiv:1904.09324",
+                "title": "Mask-predict: Parallel decoding of conditional masked language models",
+                "url": "https://arxiv.org/abs/1904.09324",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 14,
+                "2020": 35
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:uWiczbcajpAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We introduce a new entity typing task: given a sentence with an entity mention, the goal is to predict a set of free-form phrases (eg skyscraper, songwriter, or criminal) that describe appropriate types for the target entity. This formulation allows us to use a new type of distant supervision at large scale: head words, which indicate the type of the noun phrases they appear in. We show that these ultra-fine types can be crowd-sourced, and introduce new evaluation sets that are much more diverse and fine-grained than existing benchmarks. We present a model that can predict open types, and is trained using a multitask objective that pools our new head-word supervision with prior supervision from entity linking. Experimental results demonstrate that our model is effective in predicting entity types at varying granularity; it achieves state of the art performance on an existing fine-grained entity typing benchmark, and sets baselines for our newly-introduced datasets. Our data and model can be downloaded from: this http URL",
+                "author": "Eunsol Choi and Omer Levy and Yejin Choi and Luke Zettlemoyer",
+                "cites": "2134666925792410914",
+                "eprint": "https://arxiv.org/pdf/1807.04905",
+                "journal": "arXiv preprint arXiv:1807.04905",
+                "title": "Ultra-fine entity typing",
+                "url": "https://arxiv.org/abs/1807.04905",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 2,
+                "2019": 26,
+                "2020": 20
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:LjlpjdlvIbIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "This paper studies generation of descriptive sentences from densely annotated images. Previous work studied generation from automatically detected visual information but produced a limited class of sentences, hindered by currently unreliable recognition of activities and attributes. Instead, we collect human annotations of objects, parts, attributes and activities in images. These annotations allow us to build a significantly more comprehensive model of language generation and allow us to study what visual information is required to generate human-like descriptions. Experiments demonstrate high quality output and that activity annotations and relative spatial location of objects contribute most to producing high quality sentences.",
+                "author": "Mark Yatskar and Michel Galley and Lucy Vanderwende and Luke Zettlemoyer",
+                "cites": "6003244595210249264",
+                "eprint": "https://www.microsoft.com/en-us/research/wp-content/uploads/2014/08/StarSem2014-SeeNoEvil.pdf",
+                "title": "See no evil, say no evil: Description generation from densely labeled images",
+                "url": "https://www.microsoft.com/en-us/research/publication/see-no-evil-say-no-evil-description-generation-from-densely-labeled-images/",
+                "year": "2014"
+            },
+            "cites_per_year": {
+                "2015": 11,
+                "2016": 10,
+                "2017": 7,
+                "2018": 9,
+                "2019": 7,
+                "2020": 3
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:g5m5HwL7SMYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We present a set of experiments to demonstrate that deep recurrent neural networks (RNNs) learn internal representations that capture soft hierarchical notions of syntax from highly varied supervision. We consider four syntax tasks at different depths of the parse tree; for each word, we predict its part of speech as well as the first (parent), second (grandparent) and third level (great-grandparent) constituent labels that appear above it. These predictions are made from representations produced at different depths in networks that are pretrained with one of four objectives: dependency parsing, semantic role labeling, machine translation, or language modeling. In every case, we find a correspondence between network depth and syntactic depth, suggesting that a soft syntactic hierarchy emerges. This effect is robust across all conditions, indicating that the models encode significant amounts of syntax even in the absence of an explicit syntactic training supervision.",
+                "author": "Terra Blevins and Omer Levy and Luke Zettlemoyer",
+                "cites": "14618968489686200713",
+                "eprint": "https://arxiv.org/pdf/1805.04218",
+                "journal": "arXiv preprint arXiv:1805.04218",
+                "title": "Deep rnns encode soft hierarchical syntax",
+                "url": "https://arxiv.org/abs/1805.04218",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 6,
+                "2019": 31,
+                "2020": 9
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:SdhP9T11ey4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Joint models of syntactic and semantic parsing have the potential to improve performance on both tasks\u2014but to date, the best results have been achieved with pipelines. We introduce a joint model using CCG, which is motivated by the close link between CCG syntax and semantics. Semantic roles are recovered by labelling the deep dependency structures produced by the grammar. Furthermore, because CCG is lexicalized, we show it is possible to factor the parsing model over words and introduce a new A\u2217 parsing algorithm\u2014which we demonstrate is faster and more accurate than adaptive supertagging. Our joint model is the first to substantially improve both syntactic and semantic accuracy over a comparable pipeline, and also achieves state-of-the-art results for a nonensemble semantic role labelling model.",
+                "author": "Mike Lewis and Luheng He and Luke Zettlemoyer",
+                "cites": "9004616316098367352",
+                "eprint": "https://www.aclweb.org/anthology/D15-1169.pdf",
+                "pages": "1444-1454",
+                "title": "Joint a* ccg parsing and semantic role labelling",
+                "url": "https://www.aclweb.org/anthology/D15-1169.pdf",
+                "year": "2015"
+            },
+            "cites_per_year": {
+                "2015": 2,
+                "2016": 14,
+                "2017": 9,
+                "2018": 11,
+                "2019": 9,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:cFHS6HbyZ2cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Interactive 3D learning environments can provide rich problemsolving experiences with unparalleled visual impact. In these environments, students interactively solve problems by directing their avatars to navigate through complex worlds, transport entities from one location to another, and manipulate devices. However, realtime camera control is critical to their successful deployment. To create effective learning experiences, a virtual camera must in realtime \u201cfilm\u201d their activities in amanner that most clearly depicts the salient aspects of the tasks students are performing. To address this problem, we have developed the cinematic task modeling framework for automated realtime task-sensitive camera control in 3D environments. Cinematic task models dynamically map the intentional structure of users\u2019 activities to visual structures that continuously depict the most relevant actions and objects in the environment. By \u2026",
+                "author": "William H Bares and Luke S Zettlemoyer and Dennis W Rodriguez and James C Lester",
+                "cites": "15324485874263773065",
+                "eprint": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.614.2285&rep=rep1&type=pdf",
+                "pages": "81-88",
+                "title": "Task-sensitive cinematography interfaces for interactive 3D learning environments",
+                "url": "https://dl.acm.org/doi/pdf/10.1145/268389.268405",
+                "year": "1998"
+            },
+            "cites_per_year": {
+                "1998": 4,
+                "1999": 2,
+                "2000": 1,
+                "2001": 1,
+                "2002": 4,
+                "2003": 4,
+                "2004": 3,
+                "2005": 4,
+                "2006": 4,
+                "2007": 1,
+                "2008": 2,
+                "2009": 3,
+                "2010": 2,
+                "2011": 4,
+                "2012": 1,
+                "2013": 2,
+                "2014": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:eQOLeE2rZwMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Events are communicated in natural language with varying degrees of certainty. For example, if you are \u201choping for a raise,\u201d it may be somewhat less likely than if you are \u201cexpecting\u201d one. To study these distinctions, we present scalable, highquality annotation schemes for event detection and fine-grained factuality assessment. We find that non-experts, with very little training, can reliably provide judgments about what events are mentioned and the extent to which the author thinks they actually happened. We also show how such data enables the development of regression models for fine-grained scalar factuality predictions that outperform strong baselines.",
+                "author": "Kenton Lee and Yoav Artzi and Yejin Choi and Luke Zettlemoyer",
+                "cites": "2984749195766416893",
+                "eprint": "https://www.aclweb.org/anthology/D15-1189.pdf",
+                "pages": "1643-1648",
+                "title": "Event detection and factuality assessment with non-expert supervision",
+                "url": "https://www.aclweb.org/anthology/D15-1189.pdf",
+                "year": "2015"
+            },
+            "cites_per_year": {
+                "2016": 5,
+                "2017": 6,
+                "2018": 13,
+                "2019": 14,
+                "2020": 6
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:D03iK_w7-QYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "This paper describes an ibot, a specialized software agent that exists in the environment of the user interface. Such an agent interacts with applications through the same medium as a human user. Its sensors process screen contents and mouse/keyboard events to monitor the user\u2019s actions and the responses of the environment, while its effecters can generate such events for its own contributions to the interaction. We describe the architecture of our agent and* its algorithms for image processing, event management, and state representation. We illustrate the use of the agent with a small feasibility study in the area of software logging; results are promising for future progress.",
+                "author": "Luke S Zettlemoyer and Robert St. Amant and Martin S Dulberg",
+                "cites": "835176293885262443",
+                "eprint": "https://www.academia.edu/download/47257622/zsd-iui99.pdf",
+                "pages": "31-37",
+                "title": "IBOTS: Agent control through the user interface",
+                "url": "https://dl.acm.org/doi/pdf/10.1145/291080.291087",
+                "year": "1998"
+            },
+            "cites_per_year": {
+                "1999": 4,
+                "2000": 4,
+                "2001": 3,
+                "2002": 3,
+                "2003": 1,
+                "2004": 1,
+                "2005": 3,
+                "2006": 2,
+                "2007": 3,
+                "2008": 3,
+                "2009": 1,
+                "2010": 6,
+                "2011": 1,
+                "2012": 1,
+                "2013": 1,
+                "2014": 2,
+                "2015": 4
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:ufrVoPGSRksC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We introduce the syntactic scaffold, an approach to incorporating syntactic information into semantic tasks. Syntactic scaffolds avoid expensive syntactic processing at runtime, only making use of a treebank during training, through a multitask objective. We improve over strong baselines on PropBank semantics, frame semantics, and coreference resolution, achieving competitive performance on all three tasks.",
+                "author": "Swabha Swayamdipta and Sam Thomson and Kenton Lee and Luke Zettlemoyer and Chris Dyer and Noah A Smith",
+                "cites": "540756447945860933",
+                "eprint": "https://arxiv.org/pdf/1808.10485",
+                "journal": "arXiv preprint arXiv:1808.10485",
+                "title": "Syntactic scaffolds for semantic structures",
+                "url": "https://arxiv.org/abs/1808.10485",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 1,
+                "2019": 30,
+                "2020": 12
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:dQ2og3OwTAUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "We consider the problem of building scalable semantic parsers for Freebase, and present a new approach for learning to do partial analyses that ground as much of the input text as possible without requiring that all content words be mapped to Freebase concepts. We study this problem on two newly introduced large-scale noun phrase datasets, and present a new semantic parsing model and semi-supervised learning approach for reasoning with partial ontological support. Experiments demonstrate strong performance on two tasks: referring expression resolution and entity attribute extraction. In both cases, the partial analyses allow us to improve precision over strong baselines, while parsing many phrases that would be ignored by existing techniques.",
+                "author": "Eunsol Choi and Tom Kwiatkowski and Luke Zettlemoyer",
+                "cites": "9025427616468758512",
+                "eprint": "https://www.aclweb.org/anthology/P15-1127.pdf",
+                "pages": "1311-1320",
+                "title": "Scalable semantic parsing with partial ontologies",
+                "url": "https://www.aclweb.org/anthology/P15-1127.pdf",
+                "year": "2015"
+            },
+            "cites_per_year": {
+                "2015": 4,
+                "2016": 9,
+                "2017": 10,
+                "2018": 6,
+                "2019": 8,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:_xSYboBqXhAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Multi-hop reading comprehension (RC) questions are challenging because they require reading and reasoning over multiple paragraphs. We argue that it can be difficult to construct large multi-hop RC datasets. For example, even highly compositional questions can be answered with a single hop if they target specific entity types, or the facts needed to answer them are redundant. Our analysis is centered on HotpotQA, where we show that single-hop reasoning can solve much more of the dataset than previously thought. We introduce a single-hop BERT-based RC model that achieves 67 F1---comparable to state-of-the-art multi-hop models. We also design an evaluation setting where humans are not shown all of the necessary paragraphs for the intended multi-hop reasoning but can still answer over 80% of questions. Together with detailed error analysis, these results suggest there should be an increasing focus on the role of evidence in multi-hop reasoning and possibly even a shift towards information retrieval style evaluations with large and diverse evidence collections.",
+                "author": "Sewon Min and Eric Wallace and Sameer Singh and Matt Gardner and Hannaneh Hajishirzi and Luke Zettlemoyer",
+                "cites": "2695947704631270625",
+                "eprint": "https://arxiv.org/pdf/1906.02900",
+                "journal": "arXiv preprint arXiv:1906.02900",
+                "title": "Compositional questions do not necessitate multi-hop reasoning",
+                "url": "https://arxiv.org/abs/1906.02900",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 15,
+                "2020": 21
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:fEOibwPWpKIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Abdelrahman Mohamed and Dmytro Okhonko and Luke Zettlemoyer",
+                "cites": "5238219228033523151",
+                "journal": "arXiv preprint arXiv:1904.11660",
+                "title": "Transformers with convolutional context for ASR",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 13,
+                "2020": 23
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:2KloaMYe4IUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Oleksandr Polozov and Eleanor O'Rourke and Adam M Smith and Luke Zettlemoyer and Sumit Gulwani and Zoran Popovi\u0107",
+                "cites": "11029549363402302138",
+                "title": "Personalized mathematical word problem generation",
+                "year": "2015"
+            },
+            "cites_per_year": {
+                "2015": 2,
+                "2016": 6,
+                "2017": 6,
+                "2018": 8,
+                "2019": 12,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:zA6iFVUQeVQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "James C Lester and Charles B Callaway and Jo\u00ebl P Gr\u00e9goire and Gary D Stelling and Stuart G Towns and Luke S Zettlemoyer",
+                "cites": "1835829041284634119",
+                "pages": "269-298",
+                "title": "Animated pedagogical agents in knowledge-based learning environments",
+                "year": "2001"
+            },
+            "cites_per_year": {
+                "2004": 6,
+                "2005": 5,
+                "2006": 3,
+                "2007": 2,
+                "2008": 1,
+                "2009": 2,
+                "2010": 3,
+                "2011": 1,
+                "2012": 1,
+                "2013": 4,
+                "2014": 1,
+                "2015": 1,
+                "2016": 1,
+                "2017": 1,
+                "2018": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:_FxGoFyzp5QC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Xi Victoria Lin and Chenglong Wang and Deric Pang and Kevin Vu and Michael D Ernst",
+                "cites": "5358283692954522510",
+                "journal": "University of Washington Department of Computer Science and Engineering, Seattle, WA, USA, Tech. Rep. UW-CSE-17-03-01",
+                "title": "Program synthesis from natural language using recurrent neural networks",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2017": 4,
+                "2018": 13,
+                "2019": 12,
+                "2020": 6
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:VL0QpB8kHFEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Bryan C Russell and Ricardo Martin-Brualla and Daniel J Butler and Steven M Seitz and Luke Zettlemoyer",
+                "cites": "5125012449818288958",
+                "journal": "ACM Transactions on Graphics (TOG)",
+                "number": "6",
+                "pages": "1-10",
+                "publisher": "ACM",
+                "title": "3D Wikipedia: Using online text to automatically label and navigate reconstructed geometry",
+                "volume": "32",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2013": 1,
+                "2014": 8,
+                "2015": 6,
+                "2016": 3,
+                "2017": 2,
+                "2018": 6,
+                "2019": 9
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:ns9cj8rnVeAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Grace Muzny and Luke Zettlemoyer",
+                "cites": "7532527848836161443",
+                "pages": "1417-1421",
+                "title": "Automatic idiom identification in Wiktionary",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2014": 4,
+                "2015": 3,
+                "2016": 5,
+                "2017": 3,
+                "2018": 12,
+                "2019": 7,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:BqipwSGYUEgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Srinivasan Iyer and Ioannis Konstas and Alvin Cheung and Luke Zettlemoyer",
+                "cites": "663819710737594679",
+                "journal": "arXiv preprint arXiv:1808.09588",
+                "title": "Mapping language to code in programmatic context",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 2,
+                "2019": 21,
+                "2020": 9
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:PR6Y55bgFSsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Nicholas FitzGerald and Julian Michael and Luheng He and Luke Zettlemoyer",
+                "cites": "1702529142609629652",
+                "journal": "arXiv preprint arXiv:1805.05377",
+                "title": "Large-scale qa-srl parsing",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 4,
+                "2019": 15,
+                "2020": 12
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:JoZmwDi-zQgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Kenton Lee and Omer Levy and Luke Zettlemoyer",
+                "cites": "721976949035756025",
+                "journal": "arXiv preprint arXiv:1705.07393",
+                "title": "Recurrent additive networks",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2017": 4,
+                "2018": 16,
+                "2019": 9,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:BrmTIyaxlBUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Kenton Lee and Mike Lewis and Luke Zettlemoyer",
+                "cites": "17592186930258676279",
+                "journal": "arXiv preprint arXiv:1607.01432",
+                "title": "Global neural CCG parsing with optimality guarantees",
+                "year": "2016"
+            },
+            "cites_per_year": {
+                "2016": 1,
+                "2017": 11,
+                "2018": 6,
+                "2019": 9,
+                "2020": 3
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:UxriW0iASnsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Xi Victoria Lin and Chenglong Wang and Luke Zettlemoyer and Michael D Ernst",
+                "cites": "6491365618735979632",
+                "journal": "arXiv preprint arXiv:1802.08979",
+                "title": "Nl2bash: A corpus and semantic parser for natural language interface to the linux operating system",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 4,
+                "2019": 19,
+                "2020": 6
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:Mojj43d5GZwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luke Zettlemoyer and Robert C Moore",
+                "cites": "5621396344082883373",
+                "pages": "209-212",
+                "title": "Selective phrase pair extraction for improved statistical machine translation",
+                "year": "2007"
+            },
+            "cites_per_year": {
+                "2008": 1,
+                "2009": 2,
+                "2010": 3,
+                "2011": 5,
+                "2012": 7,
+                "2013": 4,
+                "2014": 1,
+                "2015": 2,
+                "2016": 1,
+                "2017": 2,
+                "2018": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:8k81kl-MbHgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Sewon Min and Victor Zhong and Luke Zettlemoyer and Hannaneh Hajishirzi",
+                "cites": "4375139079012608968",
+                "journal": "arXiv preprint arXiv:1906.02916",
+                "title": "Multi-hop reading comprehension through question decomposition and rescoring",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 11,
+                "2020": 16
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:j8SEvjWlNXcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Gabriel Stanovsky and Noah A Smith and Luke Zettlemoyer",
+                "cites": "16927499611909902090",
+                "journal": "arXiv preprint arXiv:1906.00591",
+                "title": "Evaluating gender bias in machine translation",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 6,
+                "2020": 20
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:35r97b3x0nAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Ge Gao and Eunsol Choi and Yejin Choi and Luke Zettlemoyer",
+                "cites": "14797843079964947638",
+                "journal": "arXiv preprint arXiv:1808.09653",
+                "title": "Neural metaphor detection in context",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 1,
+                "2019": 9,
+                "2020": 17
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:hkOj_22Ku90C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Michael Petrochuk and Luke Zettlemoyer",
+                "cites": "8377178192731045433",
+                "journal": "arXiv preprint arXiv:1804.08798",
+                "title": "Simplequestions nearly solved: A new upperbound and baseline approach",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 2,
+                "2019": 13,
+                "2020": 12
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:_B80troHkn4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luke Zettlemoyer and Brian Milch and Leslie P Kaelbling",
+                "cites": "333182916798134048",
+                "pages": "1905-1912",
+                "title": "Multi-agent filtering with infinitely nested beliefs",
+                "year": "2009"
+            },
+            "cites_per_year": {
+                "2010": 5,
+                "2011": 5,
+                "2012": 4,
+                "2013": 1,
+                "2014": 2,
+                "2015": 1,
+                "2016": 1,
+                "2017": 4,
+                "2018": 3,
+                "2019": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:UebtZRa9Y70C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luke S Zettlemoyer and Hanna M Pasula and Leslie Pack Kaelbling",
+                "cites": "9901249518750675894",
+                "publisher": "Schloss Dagstuhl-Leibniz-Zentrum f\u00fcr Informatik",
+                "title": "Logical particle filtering",
+                "year": "2008"
+            },
+            "cites_per_year": {
+                "2008": 3,
+                "2009": 1,
+                "2010": 1,
+                "2011": 4,
+                "2012": 4,
+                "2013": 2,
+                "2014": 3,
+                "2015": 1,
+                "2016": 3,
+                "2017": 2,
+                "2018": 1,
+                "2019": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:hqOjcs7Dif8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Jesse Thomason and Michael Murray and Maya Cakmak and Luke Zettlemoyer",
+                "cites": "12135403585792906774",
+                "pages": "394-406",
+                "title": "Vision-and-dialog navigation",
+                "year": "2020"
+            },
+            "cites_per_year": {
+                "2019": 7,
+                "2020": 18
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:t7zJ5fGR-2UC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Mandar Joshi and Omer Levy and Daniel S Weld and Luke Zettlemoyer",
+                "cites": "12579769987299735298",
+                "journal": "arXiv preprint arXiv:1908.09091",
+                "title": "BERT for coreference resolution: Baselines and analysis",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 4,
+                "2020": 22
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:nrtMV_XWKgEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Tim Dettmers and Luke Zettlemoyer",
+                "cites": "855020073842741669",
+                "journal": "arXiv preprint arXiv:1907.04840",
+                "title": "Sparse networks from scratch: Faster training without losing performance",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 7,
+                "2020": 18
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:z_wVstp3MssC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Mandar Joshi and Eunsol Choi and Omer Levy and Daniel S Weld and Luke Zettlemoyer",
+                "cites": "4183717182729119096",
+                "journal": "arXiv preprint arXiv:1810.08854",
+                "title": "pair2vec: Compositional word-pair embeddings for cross-sentence inference",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2019": 16,
+                "2020": 9
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:UHK10RUVsp4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Julian Michael and Gabriel Stanovsky and Luheng He and Ido Dagan and Luke Zettlemoyer",
+                "cites": "15134071004415783514",
+                "journal": "arXiv preprint arXiv:1711.05885",
+                "title": "Crowdsourcing question-answer meaning representations",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2018": 4,
+                "2019": 13,
+                "2020": 8
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:bnK-pcrLprsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Adrienne Wang and Tom Kwiatkowski and Luke Zettlemoyer",
+                "cites": "15940480526847114950",
+                "pages": "1284-1295",
+                "title": "Morpho-syntactic lexical generalization for CCG semantic parsing",
+                "year": "2014"
+            },
+            "cites_per_year": {
+                "2014": 1,
+                "2015": 4,
+                "2016": 2,
+                "2017": 2,
+                "2018": 7,
+                "2019": 7,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:SeFeTyx0c_EC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Yoav Artzi and Luke Zettlemoyer",
+                "cites": "1589814188943951576",
+                "journal": "arXiv preprint arXiv:1311.3011",
+                "title": "UW SPF: The University of Washington semantic parsing framework",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2013": 3,
+                "2014": 5,
+                "2015": 6,
+                "2016": 7,
+                "2017": 1,
+                "2018": 1,
+                "2019": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:O3NaXMp0MMsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Sewon Min and Danqi Chen and Hannaneh Hajishirzi and Luke Zettlemoyer",
+                "cites": "338099849939254839",
+                "journal": "arXiv preprint arXiv:1909.04849",
+                "title": "A discrete hard em approach for weakly supervised question answering",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 4,
+                "2020": 20
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:0KyAp5RtaNEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Christopher Clark and Mark Yatskar and Luke Zettlemoyer",
+                "cites": "5202079457157740069",
+                "journal": "arXiv preprint arXiv:1909.03683",
+                "title": "Don't Take the Easy Way Out: Ensemble Based Methods for Avoiding Known Dataset Biases",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 4,
+                "2020": 20
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:yB1At4FlUx8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Omer Levy and Kenton Lee and Nicholas FitzGerald and Luke Zettlemoyer",
+                "cites": "18174076341933090388",
+                "journal": "arXiv preprint arXiv:1805.03716",
+                "title": "Long short-term memory as a dynamically computed element-wise weighted sum",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 3,
+                "2019": 13,
+                "2020": 5
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:dTyEYWd-f8wC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Robert St. Amant and Luke S Zettlemoyer",
+                "cites": "15376340377178355337",
+                "pages": "483-490",
+                "title": "The user interface as an agent environment",
+                "year": "2000"
+            },
+            "cites_per_year": {
+                "2000": 1,
+                "2001": 3,
+                "2002": 5,
+                "2003": 1,
+                "2004": 2,
+                "2005": 3,
+                "2006": 1,
+                "2007": 1,
+                "2008": 1,
+                "2009": 2,
+                "2010": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:roLk4NBRz8UC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Alex Marin and Tom Kwiatkowski and Mari Ostendorf and Luke Zettlemoyer",
+                "cites": "17320485149187551334",
+                "pages": "159-164",
+                "publisher": "IEEE",
+                "title": "Using syntactic and confusion network structure for out-of-vocabulary word detection",
+                "year": "2012"
+            },
+            "cites_per_year": {
+                "2013": 1,
+                "2014": 5,
+                "2015": 5,
+                "2016": 3,
+                "2017": 1,
+                "2018": 1,
+                "2019": 4
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:r0BpntZqJG4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Mark Yatskar and Vicente Ordonez and Luke Zettlemoyer and Ali Farhadi",
+                "cites": "14927335219637955031",
+                "pages": "7196-7205",
+                "title": "Commonly uncommon: Semantic sparsity in situation recognition",
+                "year": "2017"
+            },
+            "cites_per_year": {
+                "2017": 4,
+                "2018": 3,
+                "2019": 7,
+                "2020": 5
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:tS2w5q8j5-wC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luheng He and Julian Michael and Mike Lewis and Luke Zettlemoyer",
+                "cites": "16747573430161865194",
+                "pages": "2337-2342",
+                "title": "Human-in-the-loop parsing",
+                "year": "2016"
+            },
+            "cites_per_year": {
+                "2017": 3,
+                "2018": 5,
+                "2019": 4,
+                "2020": 8
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:XiSMed-E-HIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Alexis Conneau and Shijie Wu and Haoran Li and Luke Zettlemoyer and Veselin Stoyanov",
+                "cites": "10615820542501309798",
+                "pages": "6022-6034",
+                "title": "Emerging Cross-lingual Structure in Pretrained Language Models",
+                "year": "2020"
+            },
+            "cites_per_year": {
+                "2019": 1,
+                "2020": 17
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:-FonjvnnhkoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Yinhan Liu and Jiatao Gu and Naman Goyal and Xian Li and Sergey Edunov and Marjan Ghazvininejad and Mike Lewis and Luke Zettlemoyer",
+                "cites": "18326940436379840472",
+                "journal": "arXiv preprint arXiv:2001.08210",
+                "title": "Multilingual denoising pre-training for neural machine translation",
+                "year": "2020"
+            },
+            "cites_per_year": {
+                "2020": 18
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:ILKRHgRFtOwC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Necip Fazil Ayan and Arindam Mandal and Michael Frandsen and Jing Zheng and Peter Blasco and Andreas Kathol and Fr\u00e9d\u00e9ric B\u00e9chet and Benoit Favre and Alex Marin and Tom Kwiatkowski and Mari Ostendorf and Luke Zettlemoyer and Philipp Salletmayr and Julia Hirschberg and Svetlana Stoyanchev",
+                "cites": "13429461242956721477",
+                "pages": "8391-8395",
+                "publisher": "IEEE",
+                "title": "\u201cCan you give me another word for hyperbaric?\u201d: Improving speech translation using targeted clarification questions",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2014": 6,
+                "2015": 10,
+                "2016": 1,
+                "2017": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:hMod-77fHWUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Eunsol Choi and Hannah Rashkin and Luke Zettlemoyer and Yejin Choi",
+                "cites": "2794700612045468606",
+                "pages": "333-343",
+                "title": "Document-level sentiment inference with social, faction, and discourse context",
+                "year": "2016"
+            },
+            "cites_per_year": {
+                "2017": 4,
+                "2018": 4,
+                "2019": 5,
+                "2020": 4
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:J-pR_7NvFogC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Ashwin Deshpande and Brian Milch and Luke S Zettlemoyer and Leslie Pack Kaelbling",
+                "cites": "7136282206415239362",
+                "journal": "arXiv preprint arXiv:1206.5249",
+                "title": "Learning probabilistic relational dynamics for multiple tasks",
+                "year": "2012"
+            },
+            "cites_per_year": {
+                "2008": 2,
+                "2009": 3,
+                "2010": 1,
+                "2011": 4,
+                "2012": 2,
+                "2013": 1,
+                "2014": 1,
+                "2015": 2,
+                "2016": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:5nxA0vEk-isC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Rik Koncel-Kedziorski and Ioannis Konstas and Luke Zettlemoyer and Hannaneh Hajishirzi",
+                "cites": "18314797493270668808",
+                "journal": "arXiv preprint arXiv:1610.06210",
+                "title": "A theme-rewriting approach for generating algebra word problems",
+                "year": "2016"
+            },
+            "cites_per_year": {
+                "2016": 1,
+                "2017": 3,
+                "2018": 3,
+                "2019": 8,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:u9iWguZQMMsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Yoav Artzi and Nicholas FitzGerald and Luke S Zettlemoyer",
+                "cites": "18282593956905939091",
+                "journal": "ACL (Tutorial Abstracts)",
+                "title": "Semantic Parsing with Combinatory Categorial Grammars.",
+                "volume": "3",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2014": 1,
+                "2015": 6,
+                "2016": 1,
+                "2017": 3,
+                "2018": 3,
+                "2019": 1,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:NMxIlDl6LWMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "JP Gr\u00e9goire and LS Zettlemoyer and JC Lester",
+                "cites": "16450574253111419179",
+                "journal": "Artificial intelligence in education: Open learning environments",
+                "pages": "586-593",
+                "title": "Detecting and correcting misconceptions with lifelike avatars in 3D learning environments",
+                "year": "1999"
+            },
+            "cites_per_year": {
+                "2001": 1,
+                "2002": 3,
+                "2003": 2,
+                "2004": 1,
+                "2005": 3,
+                "2006": 1,
+                "2007": 1,
+                "2008": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:0EnyYjriUFMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Sewon Min and Danqi Chen and Luke Zettlemoyer and Hannaneh Hajishirzi",
+                "cites": "17644746103066850782",
+                "journal": "arXiv preprint arXiv:1911.03868",
+                "title": "Knowledge guided text retrieval and reading for open domain question answering",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2020": 12
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:p__nRnzSRKYC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Urvashi Khandelwal and Omer Levy and Dan Jurafsky and Luke Zettlemoyer and Mike Lewis",
+                "cites": "17433739628027955410",
+                "journal": "arXiv preprint arXiv:1911.00172",
+                "title": "Generalization through memorization: Nearest neighbor language models",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 1,
+                "2020": 11
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:AvfA0Oy_GE0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Raphael Hoffmann and Luke Zettlemoyer and Daniel S Weld",
+                "cites": "8409225341916476994",
+                "journal": "arXiv preprint arXiv:1506.06418",
+                "title": "Extreme extraction: Only one hour per relation",
+                "year": "2015"
+            },
+            "cites_per_year": {
+                "2016": 2,
+                "2017": 2,
+                "2018": 5,
+                "2019": 1,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:fPk4N6BV_jEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Svitlana Volkova and Pallavi Choudhury and Chris Quirk and Bill Dolan and Luke Zettlemoyer",
+                "cites": "3726335683756891067",
+                "pages": "1669-1679",
+                "title": "Lightly supervised learning of procedural dialog systems",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2014": 3,
+                "2015": 1,
+                "2016": 1,
+                "2017": 2,
+                "2018": 3
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:blknAaTinKkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Ledell Wu and Fabio Petroni and Martin Josifoski and Sebastian Riedel and Luke Zettlemoyer",
+                "cites": "7659945896286777798",
+                "journal": "arXiv preprint arXiv:1911.03814",
+                "title": "Zero-shot entity linking with dense entity retrieval",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2020": 9
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:BwyfMAYsbu0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Lucy Simko and Luke Zettlemoyer and Tadayoshi Kohno",
+                "cites": "12773895346568977305",
+                "journal": "Proceedings on Privacy Enhancing Technologies",
+                "number": "1",
+                "pages": "127-144",
+                "publisher": "Sciendo",
+                "title": "Recognizing and imitating programmer style: Adversaries in program authorship attribution",
+                "volume": "2018",
+                "year": "2018"
+            },
+            "cites_per_year": {
+                "2018": 3,
+                "2019": 4,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:XiVPGOgt02cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Xi Victoria Lin and Sameer Singh and Luheng He and Ben Taskar and Luke Zettlemoyer",
+                "cites": "6806247590811208946",
+                "journal": "NIPS Workshop on Modern Machine Learning and Natural Language Processing",
+                "title": "Multi-label learning with posterior regularization",
+                "year": "2014"
+            },
+            "cites_per_year": {
+                "2015": 1,
+                "2016": 1,
+                "2017": 2,
+                "2018": 1,
+                "2019": 2,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:ZHo1McVdvXMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "18053517037612959983",
+                "title": "Semiconductor storage unit",
+                "year": "2003"
+            },
+            "cites_per_year": {
+                "2009": 1,
+                "2010": 1,
+                "2011": 1,
+                "2012": 1,
+                "2013": 1,
+                "2014": 1,
+                "2015": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:tKAzc9rXhukC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Pradeep Dasigi and Matt Gardner and Shikhar Murty and Luke Zettlemoyer and Eduard Hovy",
+                "cites": "13732940352479264836",
+                "pages": "2669-2680",
+                "title": "Iterative search for weakly supervised semantic parsing",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 3,
+                "2020": 3
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:evX43VCCuoAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Arash Einolghozati and Panupong Pasupat and Sonal Gupta and Rushin Shah and Mrinal Mohit and Mike Lewis and Luke Zettlemoyer",
+                "cites": "4161072535317112468",
+                "journal": "arXiv preprint arXiv:1902.06000",
+                "title": "Improving semantic parsing for task oriented dialog",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 4,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:uLbwQdceFCQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "James C Lester and Charles B Callaway and Jo\u00ebl P Gr\u00e9goire and Gary D Stelling and Stuart G Towns and Luke S Zettlemoyer",
+                "cites": "4726277158778515786",
+                "publisher": "MIT Press, Cambridge, MA",
+                "title": "Animated pedagogical agents in knowledge-based learning environments, Smart machines in education: the coming revolution in educational technology",
+                "year": "2001"
+            },
+            "cites_per_year": {
+                "2004": 3,
+                "2005": 1,
+                "2006": 1,
+                "2007": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:f2IySw72cVMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Marjan Ghazvininejad and Omer Levy and Luke Zettlemoyer",
+                "cites": "12955862765639387393",
+                "journal": "arXiv preprint arXiv:2001.08785",
+                "title": "Semi-Autoregressive Training Improves Mask-Predict Decoding",
+                "year": "2020"
+            },
+            "cites_per_year": {
+                "2020": 5
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:hMsQuOkrut0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Mohit Shridhar and Jesse Thomason and Daniel Gordon and Yonatan Bisk and Winson Han and Roozbeh Mottaghi and Luke Zettlemoyer and Dieter Fox",
+                "cites": "10541831682119160249",
+                "pages": "10740-10749",
+                "title": "Alfred: A benchmark for interpreting grounded instructions for everyday tasks",
+                "year": "2020"
+            },
+            "cites_per_year": {
+                "2020": 5
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:EYYDruWGBe4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Victor Zhong and Luke Zettlemoyer",
+                "cites": "15162667924379811477",
+                "journal": "arXiv preprint arXiv:1906.05373",
+                "title": "E3: Entailment-driven extracting and editing for conversational machine reading",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 3,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:uJ-U7cs_P_0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Srinivasan Iyer and Alvin Cheung and Luke Zettlemoyer",
+                "cites": "7803124133198920513",
+                "journal": "arXiv preprint arXiv:1904.09086",
+                "title": "Learning programmatic idioms for scalable semantic parsing",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2018": 1,
+                "2019": 2,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:_Re3VWB3Y0AC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Kristian Kersting and Brian Milch and Luke S Zettlemoyer and Michael Haimes and Leslie Pack Kaelbling",
+                "cites": "1726653180111440554",
+                "journal": "Working Notes of the NIPS-07 Workshop on Statistical Model of Networks",
+                "title": "Reasoning about large populations with lifted probabilistic inference",
+                "year": "2007"
+            },
+            "cites_per_year": {
+                "2008": 2,
+                "2009": 1,
+                "2010": 1,
+                "2011": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:Zph67rFs4hoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Marjan Ghazvininejad and Vladimir Karpukhin and Luke Zettlemoyer and Omer Levy",
+                "cites": "17658850932928245128",
+                "journal": "arXiv preprint arXiv:2004.01655",
+                "title": "Aligned cross entropy for non-autoregressive machine translation",
+                "year": "2020"
+            },
+            "cites_per_year": {
+                "2020": 4
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:g3aElNc5_aQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Fei Liu and Luke Zettlemoyer and Jacob Eisenstein",
+                "cites": "5662780085030350126",
+                "journal": "arXiv preprint arXiv:1902.01541",
+                "title": "The referential reader: A recurrent entity network for anaphora resolution",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 3,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:_Ybze24A_UAC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Cynthia Matuszek and Andrzej Pronobis and Luke Zettlemoyer and Dieter Fox",
+                "cites": "4909487327934923335",
+                "title": "Combining world and interaction models for human-robot collaborations",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2013": 1,
+                "2014": 2,
+                "2015": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:k_IJM867U9cC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Sewon Min and Julian Michael and Hannaneh Hajishirzi and Luke Zettlemoyer",
+                "cites": "2754655903914558159",
+                "journal": "arXiv preprint arXiv:2004.10645",
+                "title": "AmbigQA: Answering Ambiguous Open-domain Questions",
+                "year": "2020"
+            },
+            "cites_per_year": {
+                "2019": 1,
+                "2020": 2
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:KUbvn5osdkgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Antoine Bordes and L\u00e9on Bottou and Ronan Collobert and Dan Roth and Jason Weston and Luke Zettlemoyer",
+                "cites": "4758766298660716440",
+                "journal": "Machine Learning",
+                "number": "2",
+                "pages": "127-131",
+                "publisher": "Springer US",
+                "title": "Introduction to the special issue on learning semantics",
+                "volume": "94",
+                "year": "2014"
+            },
+            "cites_per_year": {
+                "2015": 3
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:JV2RwH3_ST0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Einat Minkov and Luke Zettlemoyer",
+                "cites": "2680763971875507929",
+                "pages": "845-853",
+                "title": "Discriminative learning for joint template filling",
+                "year": "2012"
+            },
+            "cites_per_year": {
+                "2015": 2,
+                "2016": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:HDshCWvjkbEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Rajas Agashe and Srinivasan Iyer and Luke Zettlemoyer",
+                "cites": "13472437765165552007",
+                "journal": "arXiv preprint arXiv:1910.02216",
+                "title": "Juice: A large scale distantly supervised dataset for open domain context-based code generation",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 1,
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:uc_IGeMz5qoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Maxwell Forbes and Michael Jae-Yoon Chung and Maya Cakmak and Luke Zettlemoyer and Rajesh PN Rao",
+                "cites": "6527929544964928138",
+                "journal": "ACM/IEEE international conference on human-robot interaction\u2014workshop on humans and robots in asymmetric interactions",
+                "pages": "1-4",
+                "title": "Grounding antonym adjective pairs through interaction",
+                "year": "2014"
+            },
+            "cites_per_year": {
+                "2017": 1,
+                "2018": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:NaGl4SEjCO4C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Mark Yatskar and Svitlana Volkova and Asli Celikyilmaz and Bill Dolan and Luke Zettlemoyer",
+                "cites": "13135586583754425698",
+                "pages": "416-425",
+                "title": "Learning to relate literal and sentimental descriptions of visual properties",
+                "year": "2013"
+            },
+            "cites_per_year": {
+                "2015": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:M3NEmzRMIkIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luc De Raedt and Thomas Dietterich and Lise Getoor and Kristian Kersting and Stephen H Muggleton and Barbara Hammer and Alessio Micheli and Alessandro Sperduti and Sriraam Natarajan and Prasad Tadepalli and Alan Fern and Ashwin Deshpande and Brian Milch and Luke S Zettlemoyer and Leslie Pack Kaelbling and Hanna M Pasula and Leslie Pack Kaelbling and Pedro Domingos and Parag Singla and James Cussens and Peter Flach and Edson Matsubara and Nicolas Baskiotis and Michele Sebag and Taisuke Sato and Yoshitaka Kameya and Kenichi Kurihara",
+                "cites": "62593164970541068",
+                "title": "Probabilistic, Logical and Relational Learning-A Further Synthesis",
+                "year": "2007"
+            },
+            "cites_per_year": {
+                "2009": 1,
+                "2010": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:W5xh706n7nkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Siddharth Dalmia and Abdelrahman Mohamed and Mike Lewis and Florian Metze and Luke Zettlemoyer",
+                "cites": "433138064974570534",
+                "journal": "arXiv preprint arXiv:1911.03782",
+                "title": "Enforcing encoder-decoder modularity in sequence-to-sequence models",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:ML0RJ9NH7IQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Panupong Pasupat and Sonal Gupta and Karishma Mandyam and Rushin Shah and Mike Lewis and Luke Zettlemoyer",
+                "cites": "8411957048465883261",
+                "pages": "1520-1526",
+                "title": "Span-based Hierarchical Semantic Parsing for Task-Oriented Dialog",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:URolC5Kub84C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "13663202566674016956",
+                "title": "System and methods for performing nlp related tasks using contextualized word representations",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2019": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:VLnqNzywnoUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Terra Blevins and Luke Zettlemoyer",
+                "cites": "18146607956689523246",
+                "journal": "arXiv preprint arXiv:1906.01037",
+                "title": "Better Character Language Modeling Through Morphology",
+                "year": "2019"
+            },
+            "cites_per_year": {
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:-_dYPAW6P2MC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Cynthia Matuszek and Evan Herbst and Luke Zettlemoyer and Dieter Fox",
+                "cites": "12350356572240803779",
+                "publisher": "Technical Report UW-CSE-12-01-01, University of Washington",
+                "title": "Learning to parse natural language to a robot execution system",
+                "year": "2012"
+            },
+            "cites_per_year": {
+                "2020": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:mB3voiENLucC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Yoav Artzi and Luke Zettlemoyer",
+                "cites": "3201952212721571649",
+                "journal": "NIPS Workshop In Learning Semantics",
+                "title": "Learning to recover meaning from unannotated conversational interactions",
+                "year": "2011"
+            },
+            "cites_per_year": {
+                "2013": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:hC7cP41nSMkC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Robert St Amant and Luke S Zettlemoyer",
+                "cites": "12673700741135949762",
+                "pages": "1129-1130",
+                "title": "User Interface Softbots.",
+                "year": "2000"
+            },
+            "cites_per_year": {
+                "2002": 1
+            },
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:M3ejUd6NZC8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Paul Roit and Ayal Klein and Daniela Stepanov and Jonathan Mamou and Julian Michael and Gabriel Stanovsky and Luke Zettlemoyer and Ido Dagan",
+                "cites": "0",
+                "pages": "7008-7013",
+                "title": "Controlled Crowdsourcing for High-Quality QA-SRL Annotation",
+                "year": "2020"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:WZBGuue-350C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Nabil Hossain and Marjan Ghazvininejad and Luke Zettlemoyer",
+                "cites": "0",
+                "pages": "2532-2538",
+                "title": "Simple and Effective Retrieve-Edit-Rerank Text Generation",
+                "year": "2020"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:kuK5TVdYjLIC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Mike Lewis and Marjan Ghazvininejad and Gargi Ghosh and Armen Aghajanyan and Sida Wang and Luke Zettlemoyer",
+                "cites": "0",
+                "journal": "arXiv preprint arXiv:2006.15020",
+                "title": "Pre-training via Paraphrasing",
+                "year": "2020"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:e_rmSamDkqQC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Terra Blevins and Luke Zettlemoyer",
+                "cites": "0",
+                "journal": "arXiv preprint arXiv:2005.02590",
+                "title": "Moving Down the Long Tail of Word Sense Disambiguation with Gloss-Informed Biencoders",
+                "year": "2020"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:gsN89kCJA0AC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Bhargavi Paranjape and Mandar Joshi and John Thickstun and Hannaneh Hajishirzi and Luke Zettlemoyer",
+                "cites": "0",
+                "journal": "arXiv preprint arXiv:2005.00652",
+                "title": "An Information Bottleneck Approach for Controlling Conciseness in Rationale Extraction",
+                "year": "2020"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:TIZ-Mc8IlK0C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Belinda Li and Gabriel Stanovsky and Luke Zettlemoyer",
+                "cites": "0",
+                "journal": "arXiv preprint arXiv:2004.13671",
+                "title": "Active Learning for Coreference Resolution using Discrete Annotation",
+                "year": "2020"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:tYavs44e6CUC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "cites": "0",
+                "title": "Inducing and applying a subject-targeted context free grammar",
+                "year": "2019"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:3s1wT3WcHBgC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Daniel Weld and Pedro Domingos and Luke Zettlemoyer and Hannaneh Hajishirzi",
+                "cites": "0",
+                "publisher": "University of Washington Seattle United States",
+                "title": "Composing Information, Extraction, Semantic Parsing and Tractable Inference for Deep NLP",
+                "year": "2018"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:L7CI7m0gUJcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Annie Louis and Michael Roth and Bonnie Webber and Michael White and Luke Zettlemoyer",
+                "cites": "0",
+                "title": "Proceedings of the Workshop on Uphill Battles in Language Processing: Scaling Early Achievements to Robust Methods",
+                "year": "2016"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:wbdj-CoPYUoC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Leslie Pack Kaelbling and Hanna M Pasula and Luke S Zettlemoyer",
+                "cites": "0",
+                "journal": "arXiv",
+                "pages": "arXiv: 1110.2211",
+                "title": "Learning Symbolic Models of Stochastic Domains",
+                "year": "2011"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:rO6llkc54NcC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luke Zettlemoyer",
+                "cites": "0",
+                "title": "CSE 473: Artificial Intelligence",
+                "year": "2010"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:P5F9QuxV20EC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Henry Lieberman and Richard Potter and Luke Zettlemoyer",
+                "cites": "0",
+                "journal": "Your Wish is My Command: Programming by Example",
+                "pages": "371",
+                "publisher": "Morgan Kaufmann",
+                "title": "Visual Generalization in Programming by Example",
+                "year": "2001"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:kzcrU_BdoSEC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Michael Collins and Luke Zettlemoyer and Yejin Choi and Slav Petrov",
+                "cites": "0",
+                "title": "CS5740: Natural Language Processing"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:epqYDVWIO7EC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luheng He and Mike Lewis and Luke Zettlemoyer",
+                "cites": "0",
+                "title": "Question-Answer Driven Semantic Role Labeling"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:Fu2w8maKXqMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Kenton Lee Luheng He Mike Lewis and Luke Zettlemoyer",
+                "cites": "0",
+                "title": "End-to-end Neural Coreference Resolution"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:WqliGbK-hY8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luke Zettlemoyer",
+                "cites": "0",
+                "title": "A Challenging Problem"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:5Ul4iDaHHb8C",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Luke Zettlemoyer and Brooke Cowan and Michael Collins",
+                "cites": "0",
+                "title": "Feature-Based Models for Statistical Machine Translation"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:pqnbT2bcN3wC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "author": "Cynthia Matuszek and Liefeng Bo and Luke Zettlemoyer and Dieter Fox",
+                "cites": "0",
+                "title": "Toward Unconstrained Gesture and Language Interfaces"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:maZDTaKrznsC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "In programming by example (PBE; also sometimes called programming by demonstration) systems, the system records actions performed by a user in the interface and produces a generalized program that can be used later in analogous examples. A key issue is how to describe the actions and objects selected by the user, which determines what kind of generalizations will be possible. When the user selects a graphical object on the screen, most PBE systems describe the object using properties of the underlying application data. For example, if the user selects a link on a Web page, the PBE system might represent the selection based on the link\u2019s HTML properties. In this chapter, we explore a different, and radical, approach\u2014using visual properties of the interaction elements themselves, such as size, shape, color, and appearance of graphical objects\u2014to describe user intentions. Only recently has the speed of image processing made feasible real-time analysis of screen images by a PBE system. We have not yet fully realized the goal of a complete PBE system using visual generalization, but we feel the approach is important enough to warrant presenting the idea. Visual information can supplement information available from other sources and opens up the possibility of new kinds of generalizations not possible from the application data alone. In addition, these generalizations can map more closely to the intentions of users, especially beginning users, who rely on the same visual information when making selections. Finally, visual generalization can sometimes remove one of the worst stumbling blocks preventing the use of PBE with \u2026",
+                "author": "Robert St Amant and Luke Zettlemoyer and Henry Lieberman and Richard Potter",
+                "cites": "0",
+                "eprint": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.698.2503&rep=rep1&type=pdf",
+                "title": "Nineteen",
+                "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.698.2503&rep=rep1&type=pdf"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:dhFuZR0502QC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Setting: Multi-agent, partiallyobservable world",
+                "author": "Luke Zettlemoyer and Brian Milch and Leslie Pack Kaelbling",
+                "cites": "0",
+                "title": "T10: Multi-agent Filtering with Infinitely Nested Beliefs",
+                "url": "http://scholar.google.com/scholar?cluster=10563513586464951903&hl=en&oi=scholarr"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:4DMP91E08xMC",
+            "source": "citations"
+        },
+        {
+            "bib": {
+                "abstract": "Motivation: Robust robotic control in complex worlds is a challenging problem. Hand-engineering a solution is difficult and time-consuming. Developing techniques that will allow robots to gather knowledge about the world and use it to design their own control strategies seems like a reasonable alternative.",
+                "author": "Hanna Pasula and Luke Zettlemoyer and Leslie Pack Kaelbling",
+                "cites": "0",
+                "eprint": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.92.1757&rep=rep1&type=pdf",
+                "title": "Learning and Planning with Probabilistic Relational Rules",
+                "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.92.1757&rep=rep1&type=pdf"
+            },
+            "cites_per_year": {},
+            "filled": true,
+            "id_citations": "UjpbO6IAAAAJ:qxL8FJ1GzNcC",
+            "source": "citations"
+        }
+    ],
+    "url_picture": "https://scholar.google.com/citations?view_op=medium_photo&user=UjpbO6IAAAAJ"
+}

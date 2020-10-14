@@ -1,0 +1,8 @@
+.vscode/*
+.idea/*
+.atom/*
+.vim/*
+.sublime/*
+spdemo/lib/*
+gt.bat
+spDemo
