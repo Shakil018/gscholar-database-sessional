@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jobs</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/static/css/search_page/index.css">
+
+    <script  src="/static/js/search_page/index.js"></script>
+
+
+  </head>
+  <body>
+
+    <div class="sidebar">
+      <a class="active" href="{% url 'registration:register_step1' %}">My Profile</a>
+      <a href="{% url 'utilities:index' %}">My Library</a>
+      <a href="#contact">Alerts</a>
+      <a href="{% url 'metrics:index' %}">Metrics</a>
+      <a href="{% url 'advanced_search:index' %}">Advanced Search</a>
+      <a href="#">Settings</a>
+
+    </div>
+    {% block body_block %}
+
+    {% endblock %}
+
+  </body>
+
+</html>
