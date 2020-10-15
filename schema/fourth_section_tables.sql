@@ -26,4 +26,4 @@ CREATE TABLE reply (
   CONSTRAINT reply_fk2 FOREIGN KEY(discussion_id)
     REFERENCES discussion(post_id) ON DELETE CASCADE
 );
--- end
+-- fifth_section_tables
