@@ -94,3 +94,4 @@ CREATE TABLE contains (
     REFERENCES library(library_id)
 );
 
+COMMIT;
