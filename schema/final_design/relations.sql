@@ -3,10 +3,10 @@ CREATE TABLE selected_co_authors (
   researcher1_id INTEGER,
   researcher2_id INTEGER,
   CONSTRAINT selected_co_authors_pk PRIMARY KEY(researcher1_id, researcher2_id), 
-  CONSTRAINT selected_co_authors_fk FOREIGN KEY(researcher1_id) 
-    REFERENCES researcher(person_id),
+  CONSTRAINT selected_co_authors_fk FOREIGN KEY(researcher1_id)
+    REFERENCES researcher(person_id) ON DELETE CASCADE,
   CONSTRAINT selected_co_authors_fk2 FOREIGN KEY(researcher2_id)
-    REFERENCES researcher(person_id)
+    REFERENCES researcher(person_id) ON DELETE CASCADE
 );
 -- 5
 CREATE TABLE friend_of (
@@ -14,9 +14,9 @@ CREATE TABLE friend_of (
   person2_id INTEGER,
   CONSTRAINT friend_of_pk PRIMARY KEY(person1_id, person2_id),
   CONSTRAINT friend_of_fk FOREIGN KEY(person1_id)
-    REFERENCES person(person_id),
+    REFERENCES person(person_id) ON DELETE CASCADE,
   CONSTRAINT friend_of_fk2 FOREIGN KEY(person2_id)
-    REFERENCES person(person_id)
+    REFERENCES person(person_id) ON DELETE CASCADE
 );
 -- 6
 CREATE TABLE follows (
@@ -34,9 +34,9 @@ CREATE TABLE aff_with (
   affiliation_id INTEGER,
   designation    VARCHAR2(100),
   CONSTRAINT aff_with_pk PRIMARY KEY(person_id, affiliation_id),
-  CONSTRAINT aff_with_fk FOREIGN KEY(person_id) 
-    REFERENCES person(person_id) ON DELETE CASCADE,
-  CONSTRAINT aff_with2 FOREIGN KEY(affiliation_id)
+  CONSTRAINT aff_with_fk FOREIGN KEY(person_id)
+    REFERENCES researcher(person_id) ON DELETE CASCADE,
+  CONSTRAINT aff_with_fk2 FOREIGN KEY(affiliation_id)
     REFERENCES affiliation(affiliation_id) ON DELETE CASCADE
 );
 -- 16
@@ -47,16 +47,16 @@ CREATE TABLE patented_by (
   application_no VARCHAR2(100),
   CONSTRAINT patented_by_pk PRIMARY KEY(doc_id, pub_id),
   CONSTRAINT patented_by_fk FOREIGN KEY(doc_id) 
-    REFERENCES document(doc_id),
+    REFERENCES document(doc_id) ON DELETE CASCADE,
   CONSTRAINT patented_by_fk2 FOREIGN KEY(pub_id)
-    REFERENCES patent(pub_id)
+    REFERENCES patent_office(pub_id)
 );
-
 -- 17
 CREATE TABLE published_by (
   doc_id           INTEGER,
   pub_id           INTEGER,
   publication_date DATE DEFAULT SYSDATE,
+  -- more attribute
   CONSTRAINT published_by_pk PRIMARY KEY(doc_id, pub_id),
   CONSTRAINT published_by_fk FOREIGN KEY(doc_id)
     REFERENCES document(doc_id),
@@ -69,18 +69,18 @@ CREATE TABLE cites (
   citee_id INTEGER,
   CONSTRAINT cites_pk PRIMARY KEY(citer_id, citee_id),
   CONSTRAINT cites_fk FOREIGN KEY(citer_id)
-    REFERENCES document(doc_id),
+    REFERENCES document(doc_id) ON DELETE CASCADE,
   CONSTRAINT cites_fk2 FOREIGN KEY(citee_id)
-    REFERENCES document(doc_id)
+    REFERENCES document(doc_id) ON DELETE CASCADE
 );
 -- 19
 CREATE TABLE written_by (
   researcher_id INTEGER,
   doc_id        INTEGER,
   CONSTRAINT written_by_pk PRIMARY KEY(researcher_id, doc_id),
-  CONSTRAINT written_by_fk FOREIGN KEY(researcher_id)
-    REFERENCES document(doc_id),
-  CONSTRAINT written_by_fk2 FOREIGN KEY(doc_id)
+  CONSTRAINT written_by_fk FOREIGN KEY(doc_id)
+    REFERENCES document(doc_id) ON DELETE CASCADE,
+  CONSTRAINT written_by_fk2 FOREIGN KEY(researcher_id)
     REFERENCES researcher(person_id)
 );
 -- 21
@@ -89,9 +89,8 @@ CREATE TABLE contains (
   library_id  INTEGER,
   CONSTRAINT contains_pk PRIMARY KEY(document_id, library_id),
   CONSTRAINT contains_fk FOREIGN KEY(document_id)
-    REFERENCES document(doc_id),
+    REFERENCES document(doc_id) ON DELETE CASCADE,
   CONSTRAINT contains_fk2 FOREIGN KEY(library_id)
-    REFERENCES library(library_id)
+    REFERENCES library(library_id) ON DELETE CASCADE
 );
-
 COMMIT;
