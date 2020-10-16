@@ -8,19 +8,21 @@ CREATE TABLE person (
 );
 -- 2
 CREATE TABLE user_ ( 
-  person_id INTEGER CONSTRAINT person_user_pk PRIMARY KEY,
+  person_id INTEGER,
   user_name VARCHAR2(50) NOT NULL UNIQUE,
   pass_hash VARCHAR2(100) NOT NULL,
   creation_time DATE DEFAULT SYSDATE,
+  CONSTRAINT person_user_pk PRIMARY KEY (person_id)
   CONSTRAINT person_user_fk FOREIGN KEY(person_id) 
     REFERENCES person(person_id) ON DELETE CASCADE 
 ); 
 -- 3
-CREATE TABLE researcher ( 
-  person_id INTEGER CONSTRAINT person_researcher_pk PRIMARY KEY,
-  specialization VARCHAR2(100) NOT NULL,
+CREATE TABLE researcher (
+  person_id INTEGER,
+  -- specialization VARCHAR2(100) NOT NULL,
   url VARCHAR2(100) NOT NULL UNIQUE,
-  label VARCHAR2(100),  -- may be NULL, duplicate
+  -- label VARCHAR2(100),
+  CONSTRAINT person_researcher_pk PRIMARY KEY (person_id)
   CONSTRAINT person_researcher_fk FOREIGN KEY (person_id)
     REFERENCES person(person_id) ON DELETE CASCADE
 ); 
@@ -29,10 +31,10 @@ CREATE TABLE selected_co_authors (
   researcher1_id INTEGER,
   researcher2_id INTEGER,
   CONSTRAINT selected_co_authors_pk PRIMARY KEY(researcher1_id, researcher2_id), 
-  CONSTRAINT selected_co_authors_fk FOREIGN KEY(researcher1_id) 
-    REFERENCES researcher(person_id),
+  CONSTRAINT selected_co_authors_fk FOREIGN KEY(researcher1_id)
+    REFERENCES researcher(person_id) ON DELETE CASCADE,
   CONSTRAINT selected_co_authors_fk2 FOREIGN KEY(researcher2_id)
-    REFERENCES researcher(person_id)
+    REFERENCES researcher(person_id) ON DELETE CASCADE
 );
 -- 5
 CREATE TABLE friend_of (
@@ -40,9 +42,9 @@ CREATE TABLE friend_of (
   person2_id INTEGER,
   CONSTRAINT friend_of_pk PRIMARY KEY(person1_id, person2_id),
   CONSTRAINT friend_of_fk FOREIGN KEY(person1_id)
-    REFERENCES person(person_id),
+    REFERENCES person(person_id) ON DELETE CASCADE,
   CONSTRAINT friend_of_fk2 FOREIGN KEY(person2_id)
-    REFERENCES person(person_id)
+    REFERENCES person(person_id) ON DELETE CASCADE
 );
 -- 6
 CREATE TABLE follows (
@@ -58,9 +60,9 @@ CREATE TABLE follows (
 CREATE TABLE affiliation (
   affiliation_id INTEGER,
   name           VARCHAR2(100) NOT NULL,
-  adress         VARCHAR2(100) NOT NULL,
+  adress         VARCHAR2(100),
   url            VARCHAR2(100) UNIQUE,
-  TYPE           VARCHAR2(100),
+  type           VARCHAR2(100),
   CONSTRAINT affiliation_pk PRIMARY KEY(affiliation_id)
 );
 -- 8
@@ -69,9 +71,9 @@ CREATE TABLE aff_with (
   affiliation_id INTEGER,
   designation    VARCHAR2(100),
   CONSTRAINT aff_with_pk PRIMARY KEY(person_id, affiliation_id),
-  CONSTRAINT aff_with_fk FOREIGN KEY(person_id) 
-    REFERENCES person(person_id) ON DELETE CASCADE,
-  CONSTRAINT aff_with2 FOREIGN KEY(affiliation_id)
+  CONSTRAINT aff_with_fk FOREIGN KEY(person_id)
+    REFERENCES researcher(person_id) ON DELETE CASCADE,
+  CONSTRAINT aff_with_fk2 FOREIGN KEY(affiliation_id)
     REFERENCES affiliation(affiliation_id) ON DELETE CASCADE
 );
 -- second_section_tables

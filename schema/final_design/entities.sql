@@ -17,9 +17,9 @@ CREATE TABLE user_ (
 -- 3
 CREATE TABLE researcher ( 
   person_id      INTEGER CONSTRAINT person_researcher_pk PRIMARY KEY,
-  specialization VARCHAR2(100) NOT NULL,
+  -- specialization VARCHAR2(100) NOT NULL,
   url            VARCHAR2(100) NOT NULL UNIQUE,
-  label          VARCHAR2(100),  -- may be NULL, duplicate
+  -- label          VARCHAR2(100), 
   CONSTRAINT person_researcher_fk FOREIGN KEY (person_id)
     REFERENCES person(person_id) ON DELETE CASCADE
 );
@@ -42,7 +42,7 @@ CREATE TABLE document (
   upload_time DATE DEFAULT SYSDATE,
   first_page  INTEGER,
   last_page   INTEGER,
-  category    VARCHAR2(100),
+  -- category    VARCHAR2(100),
   CONSTRAINT document_pk PRIMARY KEY(doc_id)
 );
 -- 10
@@ -117,7 +117,7 @@ CREATE TABLE posts (
 -- 23
 CREATE TABLE discussion (
   post_id  INTEGER,
-  category VARCHAR2(100) NOT NULL,
+  -- category VARCHAR2(100) NOT NULL,
   CONSTRAINT discussion_pk PRIMARY KEY(post_id),
   CONSTRAINT discussion_fk FOREIGN KEY(post_id)
     REFERENCES posts(post_id) ON DELETE CASCADE
@@ -133,7 +133,7 @@ CREATE TABLE reply (
     REFERENCES discussion(post_id) ON DELETE CASCADE
 );
 -- 25
-CREATE TABLE specialization(
+CREATE TABLE specialization (
   person_id INTEGER,
   topic     VARCHAR2(100),
   CONSTRAINT specialization_pk PRIMARY KEY(person_id, topic),
@@ -141,7 +141,7 @@ CREATE TABLE specialization(
     REFERENCES researcher(person_id)
 );
 -- 26
-CREATE TABLE labels(
+CREATE TABLE labels (
   person_id INTEGER,
   label     VARCHAR2(100),
   CONSTRAINT labels_pk PRIMARY KEY(person_id, label),
@@ -149,12 +149,20 @@ CREATE TABLE labels(
     REFERENCES researcher(person_id)
 );
 -- 27
-CREATE TABLE categories(
+CREATE TABLE document_categories (
   doc_id   INTEGER,
   category VARCHAR2(100),
-  CONSTRAINT categories_pk PRIMARY KEY(doc_id, category),
-  CONSTRAINT categories_fk FOREIGN KEY(doc_id)
+  CONSTRAINT document_categories_pk PRIMARY KEY(doc_id, category),
+  CONSTRAINT document_categories_fk FOREIGN KEY(doc_id)
     REFERENCES document(doc_id)
+);
+-- 28
+CREATE TABLE discussion_categories (
+  post_id   INTEGER,
+  category VARCHAR2(100),
+  CONSTRAINT discussion_categories_pk PRIMARY KEY(post_id, category),
+  CONSTRAINT discussion_categories_fk FOREIGN KEY(doc_id)
+    REFERENCES discussion(post_id)
 );
 
 COMMIT;
