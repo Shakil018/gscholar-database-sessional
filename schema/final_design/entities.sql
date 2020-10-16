@@ -11,7 +11,7 @@ CREATE TABLE user_ (
   user_name VARCHAR2(50) NOT NULL UNIQUE,
   pass_hash VARCHAR2(100) NOT NULL,
   creation_time DATE DEFAULT SYSDATE,
-  CONSTRAINT person_user_pk PRIMARY KEY (person_id)
+  CONSTRAINT person_user_pk PRIMARY KEY (person_id),
   CONSTRAINT person_user_fk FOREIGN KEY(person_id) 
     REFERENCES person(person_id) ON DELETE CASCADE 
 ); 
@@ -21,7 +21,7 @@ CREATE TABLE researcher (
   -- specialization VARCHAR2(100) NOT NULL,
   url VARCHAR2(100) NOT NULL UNIQUE,
   -- label VARCHAR2(100),
-  CONSTRAINT person_researcher_pk PRIMARY KEY (person_id)
+  CONSTRAINT person_researcher_pk PRIMARY KEY (person_id),
   CONSTRAINT person_researcher_fk FOREIGN KEY (person_id)
     REFERENCES person(person_id) ON DELETE CASCADE
 );

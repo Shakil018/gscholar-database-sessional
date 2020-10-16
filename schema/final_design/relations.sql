@@ -93,4 +93,5 @@ CREATE TABLE contains (
   CONSTRAINT contains_fk2 FOREIGN KEY(library_id)
     REFERENCES library(library_id) ON DELETE CASCADE
 );
+
 COMMIT;
