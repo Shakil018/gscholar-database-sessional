@@ -170,6 +170,5 @@ CREATE TABLE discussion_keywords(
   CONSTRAINT discussion_keywords_fk FOREIGN KEY(discussion_id)
     REFERENCES discussion(post_id) ON DELETE CASCADE
 );
-
-COMMIT;
 -- end
+COMMIT;
