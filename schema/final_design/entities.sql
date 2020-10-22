@@ -29,7 +29,7 @@ CREATE TABLE researcher (
 CREATE TABLE affiliation (
   affiliation_id INTEGER,
   name           VARCHAR2(100) NOT NULL,
-  adress         VARCHAR2(100),
+  address        VARCHAR2(100),
   url            VARCHAR2(100) UNIQUE,
   type           VARCHAR2(100),
   CONSTRAINT affiliation_pk PRIMARY KEY(affiliation_id)
