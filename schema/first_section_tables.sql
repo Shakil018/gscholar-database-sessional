@@ -3,7 +3,7 @@
 CREATE TABLE person (
   person_id  INTEGER,
   first_name VARCHAR2(50) NOT NULL,
-  last_name  VARCHAR2(50) NOT NULL,
+  last_name  VARCHAR2(50),
   CONSTRAINT person_pk PRIMARY KEY (person_id)
 );
 -- 2
