@@ -172,3 +172,4 @@ CREATE TABLE discussion_keywords(
 );
 -- end
 COMMIT;
+EXIT;

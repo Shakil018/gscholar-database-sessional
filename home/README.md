@@ -1,7 +1,10 @@
 ##  Design and Resources
 [Google Drive Shared Folder](https://drive.google.com/drive/u/2/folders/15dWzTAfyd_mNNlgXnLJ0IK--2CooJPMz)
 
-
+## Data Loading (Windows 10)
+Ror loading the data from scratch -
+ - `master` branch `schema/final_design`: drop_all tables -> entities -> relations sql files or run `run_all.bat`
+ - `dataset` brach `databased_data/saved/sqlldr_import`: run `run_all.bat`
 
 
 ## Github Tree

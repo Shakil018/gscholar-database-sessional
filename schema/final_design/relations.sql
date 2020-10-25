@@ -95,3 +95,4 @@ CREATE TABLE contains (
 );
 -- end
 COMMIT;
+EXIT;
