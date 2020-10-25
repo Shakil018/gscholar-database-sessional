@@ -20,7 +20,7 @@ CREATE TABLE user_ (
 CREATE TABLE researcher (
   person_id INTEGER,
   -- specialization VARCHAR2(100) NOT NULL,
-  url VARCHAR2(100) NOT NULL UNIQUE,
+  url VARCHAR2(100) UNIQUE,
   -- label VARCHAR2(100),
   CONSTRAINT person_researcher_pk PRIMARY KEY (person_id),
   CONSTRAINT person_researcher_fk FOREIGN KEY (person_id)

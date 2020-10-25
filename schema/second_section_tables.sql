@@ -1,14 +1,14 @@
 -- 9
 CREATE TABLE document (
-  doc_id      INTEGER,
-  title       VARCHAR2(100) NOT NULL,
-  description CLOB,
-  url         VARCHAR2(100),
-  eprint      VARCHAR2(100),
-  doi         VARCHAR2(100),
-  upload_time DATE DEFAULT SYSDATE,
-  first_page  VARCHAR2(100),
-  last_page   VARCHAR2(100),
+  doc_id       INTEGER,
+  title        VARCHAR2(100) NOT NULL,
+  descriptions CLOB,
+  url          VARCHAR2(100),
+  eprint       VARCHAR2(100),
+  doi          VARCHAR2(100),
+  upload_time  DATE DEFAULT SYSDATE,
+  first_page   VARCHAR2(100),
+  last_page    VARCHAR2(100),
   -- category    VARCHAR2(100),
   CONSTRAINT document_pk PRIMARY KEY(doc_id)
 );

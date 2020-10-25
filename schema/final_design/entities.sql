@@ -19,12 +19,12 @@ CREATE TABLE user_ (
 CREATE TABLE researcher (
   person_id INTEGER,
   -- specialization VARCHAR2(100) NOT NULL,
-  url VARCHAR2(100) NOT NULL UNIQUE,
+  url VARCHAR2(100) UNIQUE,
   -- label VARCHAR2(100),
   CONSTRAINT person_researcher_pk PRIMARY KEY (person_id),
   CONSTRAINT person_researcher_fk FOREIGN KEY (person_id)
     REFERENCES person(person_id) ON DELETE CASCADE
-);
+); 
 -- 7
 CREATE TABLE affiliation (
   affiliation_id INTEGER,
@@ -36,15 +36,15 @@ CREATE TABLE affiliation (
 );
 -- 9
 CREATE TABLE document (
-  doc_id      INTEGER,
-  title       VARCHAR2(100) NOT NULL,
-  description CLOB,
-  url         VARCHAR2(100),
-  eprint      VARCHAR2(100),
-  doi         VARCHAR2(100),
-  upload_time DATE DEFAULT SYSDATE,
-  first_page  VARCHAR2(100),
-  last_page   VARCHAR2(100),
+  doc_id       INTEGER,
+  title        VARCHAR2(100) NOT NULL,
+  descriptions CLOB,
+  url          VARCHAR2(100),
+  eprint       VARCHAR2(100),
+  doi          VARCHAR2(100),
+  upload_time  DATE DEFAULT SYSDATE,
+  first_page   VARCHAR2(100),
+  last_page    VARCHAR2(100),
   -- category    VARCHAR2(100),
   CONSTRAINT document_pk PRIMARY KEY(doc_id)
 );
