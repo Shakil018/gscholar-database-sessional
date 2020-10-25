@@ -93,6 +93,16 @@ CREATE TABLE contains (
   CONSTRAINT contains_fk2 FOREIGN KEY(library_id)
     REFERENCES library(library_id) ON DELETE CASCADE
 );
+-- 26
+CREATE TABLE labels (
+  researcher_id INTEGER,
+  label_id      INTEGER,
+  CONSTRAINT labels_pk PRIMARY KEY(researcher_id, label_id),
+  CONSTRAINT labels_fk FOREIGN KEY(researcher_id)
+    REFERENCES researcher(person_id) ON DELETE CASCADE,
+  CONSTRAINT labels_fk2 FOREIGN KEY(label_id)
+    REFERENCES labels_unique(label_id) ON DELETE CASCADE
+);
 -- end
 COMMIT;
 EXIT;

@@ -6,13 +6,22 @@ CREATE TABLE specialization (
   CONSTRAINT specialization_fk FOREIGN KEY(researcher_id)
     REFERENCES researcher(person_id) ON DELETE CASCADE
 );
+-- 26.0
+CREATE TABLE labels_unique (
+  label_id INTEGER,
+  label_name  VARCHAR2(100),
+  CONSTRAINT labels_unique_pk PRIMARY KEY(label_id)
+);
+
 -- 26
 CREATE TABLE labels (
   researcher_id INTEGER,
-  label         VARCHAR2(100),
-  CONSTRAINT labels_pk PRIMARY KEY(researcher_id, label),
+  label_id      INTEGER,
+  CONSTRAINT labels_pk PRIMARY KEY(researcher_id, label_id),
   CONSTRAINT labels_fk FOREIGN KEY(researcher_id)
-    REFERENCES researcher(person_id) ON DELETE CASCADE
+    REFERENCES researcher(person_id) ON DELETE CASCADE,
+  CONSTRAINT labels_fk2 FOREIGN KEY(label_id)
+    REFERENCES labels_unique(label_id) ON DELETE CASCADE
 );
 -- 27
 CREATE TABLE document_categories (
