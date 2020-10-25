@@ -1,8 +1,8 @@
 -- 10
 CREATE TABLE publication (
   pub_id INTEGER,
-  name   VARCHAR2(100) NOT NULL,
-  url    VARCHAR2(100) UNIQUE,
+  name   VARCHAR2(500) NOT NULL,
+  url    VARCHAR2(500) UNIQUE,
   CONSTRAINT publication_pk PRIMARY KEY(pub_id)
 );
 -- 11
@@ -26,7 +26,7 @@ CREATE TABLE conference_proceedings (
 -- 13
 CREATE TABLE book (
   pub_id         INTEGER,
-  publisher_name VARCHAR2(100),
+  publisher_name VARCHAR2(500),
   edition_       VARCHAR2(100) UNIQUE,
   CONSTRAINT book_pk PRIMARY KEY(pub_id),
   CONSTRAINT book_fk FOREIGN KEY(pub_id)
@@ -35,7 +35,7 @@ CREATE TABLE book (
 -- 14
 CREATE TABLE patent_office (
   pub_id      INTEGER,
-  office_name VARCHAR2(100),
+  office_name VARCHAR2(500),
   location    VARCHAR2(100),
   email       VARCHAR2(100),
   phone       VARCHAR2(100),
@@ -46,7 +46,7 @@ CREATE TABLE patent_office (
 -- 15
 CREATE TABLE miscellaneous (
   pub_id       INTEGER,
-  description_ VARCHAR2(100),
+  description_ VARCHAR2(500),
   CONSTRAINT misc_pk PRIMARY KEY(pub_id),
   CONSTRAINT misc_fk FOREIGN KEY(pub_id)
   REFERENCES publication(pub_id) ON DELETE CASCADE
