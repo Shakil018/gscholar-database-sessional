@@ -1,7 +1,7 @@
 -- 9
 CREATE TABLE document (
   doc_id       INTEGER,
-  title        VARCHAR2(100) NOT NULL,
+  title        VARCHAR2(500) NOT NULL,
   descriptions CLOB,
   url          VARCHAR2(100),
   eprint       VARCHAR2(100),

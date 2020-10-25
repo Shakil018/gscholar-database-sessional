@@ -37,11 +37,11 @@ CREATE TABLE affiliation (
 -- 9
 CREATE TABLE document (
   doc_id       INTEGER,
-  title        VARCHAR2(100) NOT NULL,
+  title        VARCHAR2(500) NOT NULL,
   descriptions CLOB,
-  url          VARCHAR2(100),
-  eprint       VARCHAR2(100),
-  doi          VARCHAR2(100),
+  url          VARCHAR2(200),
+  eprint       VARCHAR2(200),
+  doi          VARCHAR2(200),
   upload_time  DATE DEFAULT SYSDATE,
   first_page   VARCHAR2(100),
   last_page    VARCHAR2(100),
