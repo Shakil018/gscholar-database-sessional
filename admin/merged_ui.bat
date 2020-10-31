@@ -2,8 +2,10 @@
 git pull
 @REM checkout 
 git checkout shakil
-git merge shayekh
 git checkout -b merged_ui
+git merge shayekh
 @REM rename metrics to _metrics
 @REM shift in vscode
-@REM finally merge git ignore 
+@REM finally merge .gitignore and django setting manually
+@REM Reset if required
+git reset --hard
