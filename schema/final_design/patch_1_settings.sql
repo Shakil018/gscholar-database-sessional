@@ -6,6 +6,13 @@ ADD (
 	is_reseacher NUMBER DEFAULT 0 NOT NULL CHECK (is_reseacher BETWEEN 0 and 1),
 	is_user      NUMBER DEFAULT 1 NOT NULL CHECK (is_user BETWEEN 0 and 1)
 );
+
+-- is_deleted for recovery
+ALTER TABLE USER_
+ADD (
+	is_deleted NUMBER CHECK (is_deleted BETWEEN 0 and 1)
+);
+
 -- publication type
 ALTER TABLE PUBLICATION
 ADD (
@@ -21,12 +28,6 @@ ADD (
 ALTER TABLE DOCUMENT
 ADD (
 	is_patent NUMBER CHECK (is_patent BETWEEN 0 and 1),	
-);
-
--- is_deleted for recovery
-ALTER TABLE USER_
-ADD (
-	is_deleted NUMBER CHECK (is_deleted BETWEEN 0 and 1)
 );
 
 
