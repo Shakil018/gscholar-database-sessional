@@ -86,6 +86,13 @@ CREATE TABLE user_language (
     REFERENCES laguages(lang_id) ON DELETE CASCADE
 );
 
+-- add results per page
+ALTER TABLE user_setting
+ADD (
+	results_per_page INTEGER DEFAULT 10 NOT NULL
+);
+
+
 
 
 
