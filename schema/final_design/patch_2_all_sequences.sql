@@ -1,15 +1,14 @@
 --person_id primary key generator sequence:
 
-drop sequence person_id_generator;
+-- drop sequence person_id_generator;
 
 CREATE SEQUENCE person_id_generator
 INCREMENT BY 1
 START WITH 1300
 NOCYCLE;
 
+
 --affiliation_id primary key generator:
-
-
 
 -- DROP SEQUENCE AFFILIATION_ID_GENERATOR;
 
@@ -21,8 +20,6 @@ NOCYCLE;
 
 --pub_id primary key generator:
 
-
-
 -- DROP SEQUENCE PUB_ID_GENERATOR;
 
 CREATE SEQUENCE PUB_ID_GENERATOR
@@ -33,8 +30,6 @@ NOCYCLE;
 
 --post_id primary key generator:
 
-
-
 -- DROP SEQUENCE POST_ID_GENERATOR;
 
 CREATE SEQUENCE POST_ID_GENERATOR
@@ -43,10 +38,7 @@ START WITH 20100
 NOCYCLE;
 
 
-
 --doc_id primary key generator:
-
-
 
 -- DROP SEQUENCE DOC_ID_GENERATOR;
 
@@ -58,8 +50,6 @@ NOCYCLE;
 
 --library_id primary key generator:
 
-
-
 -- DROP SEQUENCE LIBRARY_ID_GENERATOR;
 
 CREATE SEQUENCE LIBRARY_ID_GENERATOR
@@ -67,3 +57,12 @@ INCREMENT BY 1
 START WITH 20200
 NOCYCLE;
 
+
+--alert pk generator sequene for all_sequence:
+
+-- DROP SEQUENCE ALERTS_ID_GENERATOR
+
+CREATE SEQUENCE ALERTS_ID_GENERATOR
+INCREMENT BY 1
+START WITH 1000
+NOCYCLE;
