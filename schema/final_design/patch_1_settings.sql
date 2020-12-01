@@ -92,6 +92,27 @@ ADD (
 	results_per_page INTEGER DEFAULT 10 NOT NULL
 );
 
+-- add new column for the doc referring to a discussion
+ALTER TABLE DISCUSSION
+	ADD	doc_id INTEGER DEFAULT 8000 NOT NULL 
+		CONSTRAINT discussion_doc_fk REFERENCES DOCUMENT(DOC_ID);
+
+
+-- add data to discussion table for docs (actually dataset)
+DECLARE
+i INTEGER := 8000;
+BEGIN
+	FOR cur IN (SELECT post_id FROM DISCUSSION) LOOP
+		dbms_output.put_line(cur.POST_ID);
+		UPDATE DISCUSSION dis
+			SET doc_id = i
+			WHERE dis.POST_ID = cur.POST_ID;
+		i := i + 1;
+			
+	END LOOP;
+
+END;
+/
 
 
 
