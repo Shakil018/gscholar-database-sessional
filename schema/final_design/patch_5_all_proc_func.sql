@@ -22,3 +22,63 @@ BEGIN
 	COMMIT;
 END;
 /
+
+
+-- full name of a person given first_and_last name
+CREATE OR REPLACE FUNCTION
+get_full_name (first_name IN VARCHAR2, last_name IN VARCHAR2)
+RETURN VARCHAR2 IS
+	name VARCHAR2(500);
+BEGIN
+	IF last_name IS NULL THEN
+		name := first_name;
+	ELSE
+		name := first_name || ' ' || last_name;
+	END IF;
+	
+	RETURN name;
+END ;
+/
+
+/*
+---------- TESTS -----------
+SELECT * FROM user_errors;
+SELECT get_full_name(FIRST_NAME, LAST_NAME) AS full_name
+FROM PERSON;
+*/
+
+-- full name given person_id
+CREATE OR REPLACE FUNCTION
+get_full_name_of_person (per_id INTEGER)
+RETURN VARCHAR2 IS
+	full_name VARCHAR2(500);
+BEGIN
+	SELECT get_full_name(per.FIRST_NAME, per.LAST_NAME) INTO full_name
+	FROM PERSON per
+	WHERE per.PERSON_ID = per_id;
+	
+	RETURN full_name;
+END ;
+/
+
+/* 
+--------------- TESTS ------------------
+SELECT get_full_name_of_person(1000)
+FROM dual;
+*/
+
+
+CREATE OR REPLACE FUNCTION
+days_from_now (given_time DATE)
+RETURN INTEGER IS
+BEGIN
+	RETURN TRUNC(SYSDATE) - TRUNC(given_time);
+END ;
+/
+
+
+/* 
+--------------- TESTS ------------------
+SELECT days_from_now(SYSDATE - 10)
+FROM dual;
+*/
