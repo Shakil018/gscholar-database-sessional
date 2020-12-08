@@ -43,3 +43,46 @@ BEGIN
  	
 END;
 /
+
+CREATE OR REPLACE TRIGGER NOTI_ON_REPLY
+AFTER INSERT
+ON REPLY
+FOR EACH ROW
+DECLARE
+	-- NUMBER DATE VARCHAR2(1000);
+	person_id_  NUMBER;
+	doc_id_     NUMBER;
+	noti_type_  VARCHAR2(500) := 'on_reply_on_comment';
+	event_time_ DATE;
+	desription_ VARCHAR2(500);
+	post_id_    NUMBER;
+	disc_id_    NUMBER;
+	noti_id_    NUMBER := NOTIFICATION_ID_GENERATOR.NEXTVAL;
+	replier_name_ VARCHAR2(500);
+BEGIN
+	post_id_    := :NEW.POST_ID;
+	disc_id_    := :NEW.DISCUSSION_ID;
+
+	
+	SELECT 
+		disc.DOC_ID, post.PERSON_ID 
+			INTO doc_id_, person_id_
+	FROM DISCUSSION disc
+	INNER JOIN POSTS post 
+		ON (post.POST_ID = disc.POST_ID AND disc.POST_ID = disc_id_);
+	
+	SELECT
+		CAST(post.TIMESTAMP_ AS DATE), GET_FULL_NAME_OF_PERSON(per.PERSON_ID)
+			INTO event_time_, replier_name_
+-- 	FROM REPLY rep
+	FROM POSTS post 
+	INNER JOIN PERSON per ON(per.PERSON_ID = post.PERSON_ID)
+	WHERE (post.POST_ID = post_id_);
+	
+-- 	event_time_ := CAST(event_time_ AS DATE);
+	desription_ := replier_name_ || ' ' || 'replied to your post';
+	INSERT INTO NOTIFICATION 
+	VALUES(noti_id_, person_id_, doc_id_, noti_type_, event_time_ , desription_);
+	
+END;
+/
