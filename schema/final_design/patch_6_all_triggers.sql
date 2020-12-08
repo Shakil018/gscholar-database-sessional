@@ -86,3 +86,40 @@ BEGIN
 	
 END;
 /
+
+
+CREATE OR REPLACE TRIGGER NOTI_ON_COMMENT
+AFTER INSERT
+ON DISCUSSION
+FOR EACH ROW
+DECLARE
+	-- NUMBER DATE VARCHAR2(1000);
+	doc_id_     NUMBER;
+	noti_type_  VARCHAR2(500) := 'on_discussion_on_doc';
+	event_time_ DATE;
+	desription_ VARCHAR2(500);
+	post_id_    NUMBER;
+	discusser_name_  VARCHAR2(500);
+	
+BEGIN
+	post_id_ := :NEW.POST_ID;
+	doc_id_  := :NEW.DOC_ID;	
+	SELECT
+		CAST(post.TIMESTAMP_ AS DATE), GET_FULL_NAME_OF_PERSON(per.PERSON_ID)
+			INTO event_time_, discusser_name_
+	FROM POSTS post
+	INNER JOIN PERSON per ON(per.PERSON_ID = post.PERSON_ID)
+	WHERE (post.POST_ID = post_id_);
+	
+	desription_ := discusser_name_ || ' ' || 'commented on your paper';
+	
+	FOR cur IN (SELECT DISTINCT wby.RESEARCHER_ID AS res_id
+				FROM DOCUMENT doc
+                INNER JOIN WRITTEN_BY wby ON(wby.DOC_ID = doc.DOC_ID and doc.DOC_ID = doc_id_)
+	) LOOP
+		INSERT INTO NOTIFICATION
+		VALUES(NOTIFICATION_ID_GENERATOR.NEXTVAL, cur.res_id, doc_id_, noti_type_, event_time_ , desription_);
+	
+	END LOOP;	
+END;
+/
